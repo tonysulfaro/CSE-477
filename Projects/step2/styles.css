@@ -25,6 +25,10 @@ header nav{
     padding: 0.5em;
 }
 
+nav.welcomeNav p{
+    margin: 1em;
+}
+
 header h1{
     text-align: center;
     padding: 0.5em;
@@ -48,21 +52,30 @@ article p{
     margin-bottom: 0.5em;
 }
 
-#current-room{
-    margin-bottom: 1em;
-}
-
-#remaining-arrows{
-    margin-top: 1em;
-}
-
 div.room {
     width: 200px;
     display: inline-block;
 }
 
+div.room-content p{
+    font-size: 1.5em;
+}
+
 .rooms{
     margin: 1em;
+    text-align: left;
+}
+
+.instructions p{
+    font-size: 1em;
+    margin: 0 0 2em 0;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+span.bigText{
+    font-size: 1.5em;
+    font-style: italic;
 }
 
 
