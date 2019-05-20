@@ -55,6 +55,7 @@ article p{
 div.room {
     width: 200px;
     display: inline-block;
+    text-align: center;
 }
 
 div.room-content p{
@@ -63,7 +64,7 @@ div.room-content p{
 
 .rooms{
     margin: 1em;
-    text-align: left;
+    text-align: center;
 }
 
 .instructions p{
