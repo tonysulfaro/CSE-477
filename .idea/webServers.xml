@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="acc73e5c-85e9-40e0-8afb-50143ba6c61b" name="webdev-step1" url="http://webdev.cse.msu.edu/~sulfaroa/step1">
-        <fileTransfer host="black.cse.msu.edu" port="22" rootFolder="/user/sulfaroa/classweb/step1" accessType="SFTP">
+        <fileTransfer host="black.cse.msu.edu" port="22" rootFolder="/user/sulfaroa/classweb" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

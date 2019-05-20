@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b8259f-3054-498f-b19f-dec017f1a0b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/grading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/grading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave-wumpus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/dead-wumpus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/wumpus-wins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/instructions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/lose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/win.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lose.html" beforeDir="false" afterPath="$PROJECT_DIR$/lose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/win.html" beforeDir="false" afterPath="$PROJECT_DIR$/win.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/island_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/island_life.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/quizmore.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/quizmore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/quizrest.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/quizrest.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -191,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558294340806</updated>
       <workItem from="1558294341996" duration="146000" />
-      <workItem from="1558294722699" duration="6314000" />
+      <workItem from="1558294722699" duration="6942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6460000" />
+    <option name="totallyTimeSpent" value="7088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -217,7 +230,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Remote Host" order="0" weight="0.32957393" />
+      <window_info anchor="right" id="Remote Host" order="0" visible="true" weight="0.32957393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -284,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grading.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
