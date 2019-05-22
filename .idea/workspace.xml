@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="finish step1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/step3/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step3/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step3/grading.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step3/grading.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step3/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step3/grading.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -87,6 +98,7 @@
         <option value="$PROJECT_DIR$/Step Assingments/step3/wumpus.inc.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/styles.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/game.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step3/grading.html" />
       </list>
     </option>
   </component>
@@ -201,12 +213,12 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="7153000" />
+      <workItem from="1558411599932" duration="7755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18977000" />
+    <option name="totallyTimeSpent" value="19579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -441,8 +453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step3/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step3/grading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
