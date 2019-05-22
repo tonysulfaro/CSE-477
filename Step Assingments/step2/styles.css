@@ -36,13 +36,13 @@ header h1{
     font-size: 3em;
 }
 
-article {
+.game {
     background-color: white;
     text-align: center;
     padding: 1em;
 }
 
-article p{
+.game p{
     font-size: 1.5em;
 }
 

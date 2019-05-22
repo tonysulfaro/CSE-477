@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b8259f-3054-498f-b19f-dec017f1a0b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/grading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave-wumpus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/cave2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/dead-wumpus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/images/wumpus-wins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/instructions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/lose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Step Assingments/step2/win.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/island_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/island_life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/quizmore.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/quizmore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Step Assingments/step2/quizrest.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Step Assingments/step2/step2/quizrest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/step2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cave-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cave-wumpus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cave.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cave2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dead-wumpus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wumpus-wins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/win.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,71 +33,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grading.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/welcome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/win.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lose.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instructions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,22 +77,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="step2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="step2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="step2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="step2" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +131,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
