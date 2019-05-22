@@ -60,7 +60,24 @@ if(in_array($room, $pits) or $room == $wumpus){
         }
         ?>
 
-<!--        <p>You smell a wumpus!</p>-->
+        <?php
+        //check if wumpus is adjacent
+        for($i=0; $i<=2; $i++){
+            if($cave[$room][$i] == $wumpus){
+                echo "<p>You smell a wumpus!</p>";
+            }
+
+            // adjacent room to search below
+            $adj_room = $cave[$room][$i];
+
+            // rooms two away from current location
+            for($j=0; $j<=2; $j++) {
+                if($cave[$adj_room][$j] == $wumpus){
+                    echo "<p>You smell a wumpus!</p>";
+                }
+            }
+        }
+        ?>
 
         <div class="rooms">
             <div class="room">
