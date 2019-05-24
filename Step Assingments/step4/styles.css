@@ -1,0 +1,98 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    background-image: url("images/cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0 5em 0.5em 5em;
+    font-family: "Arial", sans-serif;
+}
+
+header{
+    background: #3f3622;
+}
+
+header nav{
+    text-align: right;
+    padding: 0.5em;
+}
+
+nav.welcomeNav p{
+    margin: 1em;
+}
+
+header h1{
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    font-size: 3em;
+}
+
+.game {
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.game p{
+    font-size: 1.5em;
+}
+
+#cave-img-big{
+    padding: 0.5em;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+}
+
+#room-number{
+    margin: 1em;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+div.room-content p{
+    font-size: 1.5em;
+}
+
+.rooms{
+    margin: 1em;
+    text-align: center;
+}
+
+.instructions p{
+    font-size: 1em;
+    margin: 0 0 2em 0;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+span.bigText{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: red;
+}
+

@@ -26,3 +26,40 @@ function cave_array() {
 
     return $cave;
 }
+
+function birds_present($cave, $room, $birds){
+    //check if birds room is adjacent
+    for($i=0; $i<=2; $i++){
+        if($cave[$room][$i] == $birds){
+            return "<p>You hear birds!</p>";
+        }
+    }
+}
+
+function pit_present($cave, $room, $pits){
+    //check if pit is adjacent
+    for($i=0; $i<=2; $i++){
+        if(in_array($cave[$room][$i],$pits)){
+            return "<p>You feel a draft!</p>";
+        }
+    }
+}
+
+function wumpus_present($cave, $room, $wumpus){
+    //check if wumpus is adjacent
+    for($i=0; $i<=2; $i++){
+        if($cave[$room][$i] == $wumpus){
+            return "<p>You smell a wumpus!</p>";
+        }
+
+        // adjacent room to search below
+        $adj_room = $cave[$room][$i];
+
+        // rooms two away from current location
+        for($j=0; $j<=2; $j++) {
+            if($cave[$adj_room][$j] == $wumpus){
+                return "<p>You smell a wumpus!</p>";
+            }
+        }
+    }
+}
