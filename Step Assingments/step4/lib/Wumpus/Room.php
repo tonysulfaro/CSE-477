@@ -71,7 +71,7 @@ class Room
      */
     public function addContent($c)
     {
-
+        array_push($this->contents, $c);
     }
 
     /**
@@ -87,11 +87,42 @@ class Room
      * Test to see if a room contains an item
      * @param int $item Item we are testing (integer constant)
      * @param int $recurse How many levels away we test
-     * @returns true if room or neighbors contain the item
+     * @return true if room or neighbors contain the item
      */
     public function contains($item, $recurse = 0)
     {
+        // found item in contents
+        if (in_array($item, $this->contents)) {
+            return true;
+        }
 
+        // search adjacent rooms for item
+        if ($recurse == 1) {
+            foreach ($this->neighbors as $neighbor) {
+                if (in_array($item, $neighbor->contents)) {
+                    return true;
+                }
+            }
+        }
+
+        // search adjacent rooms to adjacent rooms
+        if ($recurse == 2) {
+            foreach ($this->neighbors as $neighbor) {
+                // check rooms two moves away
+                foreach ($neighbor->neighbors as $secondNeighbor) {
+                    if (in_array($item, $secondNeighbor->contents)) {
+                        return true;
+                    }
+                }
+                // check adjacent rooms
+                if (in_array($item, $neighbor->contents)) {
+                    return true;
+                }
+            }
+        }
+
+        // item not in contents
+            return false;
     }
 
     private $neighbors = [];   // Neighbors of this room
