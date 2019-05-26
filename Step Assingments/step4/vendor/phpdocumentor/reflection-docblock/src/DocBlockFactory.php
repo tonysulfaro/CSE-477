@@ -30,7 +30,7 @@ final class DocBlockFactory implements DocBlockFactoryInterface
      * Initializes this factory with the required subcontractors.
      *
      * @param DescriptionFactory $descriptionFactory
-     * @param TagFactory         $tagFactory
+     * @param TagFactory $tagFactory
      */
     public function __construct(DescriptionFactory $descriptionFactory, TagFactory $tagFactory)
     {
@@ -66,7 +66,7 @@ final class DocBlockFactory implements DocBlockFactoryInterface
      * @param object|string $docblock A string containing the DocBlock to parse or an object supporting the
      *                                getDocComment method (such as a ReflectionClass object).
      * @param Types\Context $context
-     * @param Location      $location
+     * @param Location $location
      *
      * @return DocBlock
      */
@@ -132,10 +132,10 @@ final class DocBlockFactory implements DocBlockFactoryInterface
      *
      * @param string $comment Comment to split into the sub-parts.
      *
-     * @author Richard van Velzen (@_richardJ) Special thanks to Richard for the regex responsible for the split.
+     * @return string[] containing the template marker (if any), summary, description and a string containing the tags.
      * @author Mike van Riel <me@mikevanriel.com> for extending the regex with template marker support.
      *
-     * @return string[] containing the template marker (if any), summary, description and a string containing the tags.
+     * @author Richard van Velzen (@_richardJ) Special thanks to Richard for the regex responsible for the split.
      */
     private function splitDocBlock($comment)
     {

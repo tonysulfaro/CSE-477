@@ -1,17 +1,17 @@
-body{
+body {
     background-color: #0D360E;
     font-family: "Times New Roman", serif;
 }
 
-header, footer, h1,h2{
+header, footer, h1, h2 {
     font-family: "Arial", sans-serif;
 }
 
-h1{
+h1 {
     font-size: 2em;
 }
 
-header, footer{
+header, footer {
     background-color: #155a16;
     color: white;
 }
@@ -20,7 +20,7 @@ nav {
     background-color: #1d7e1e;
 }
 
-article{
+article {
     background-color: white;
 }
 
@@ -36,9 +36,11 @@ body, h1, h2, p {
 header {
     margin: 0 3em 0.5em 3em;
 }
+
 article {
     margin: 0 3em 0.5em 3em;
 }
+
 footer {
     margin: 0 3em 0.5em 3em;
 }
@@ -56,7 +58,7 @@ footer p {
     padding: 0.5em
 }
 
-nav p{
+nav p {
     size: 0.8em;
 
 }
@@ -67,40 +69,41 @@ header h1 {
 }
 
 article h2 {
-    font-size:1.125em;
+    font-size: 1.125em;
     margin-top: 0em;
     padding-left: 0.24em;
     border-bottom: 2px #999999;
 }
+
 footer h2 {
-    font-size:1.125em;
+    font-size: 1.125em;
     margin-top: 0em;
     padding-left: 0.24em;
 }
 
-.byline, figcaption{
+.byline, figcaption {
     font-style: italic;
     color: #777;
     font-size: 0.9em;
 }
 
-figure img{
+figure img {
     border-top-color: #999;
 }
 
-#reviews div{
+#reviews div {
     border-bottom: dotted #999999;
 }
 
-a:link{
+a:link {
     color: #47B3D7;
 }
 
-a:visited{
+a:visited {
     color: #BB78FF;
 }
 
-a:hover{
+a:hover {
     color: #ffffcc;
 }
 

@@ -10,13 +10,14 @@ class Skyscraper
     }
 
     // number of times number increases for skyscraper
-    function rowCnt($r){
+    function rowCnt($r)
+    {
         $count = 1;
-        $row = $this->skyscraper[$r-1];
+        $row = $this->skyscraper[$r - 1];
         $max = $row[0];
 
-        for($i = 1; $i<sizeof($row); $i++){
-            if($row[$i]>$max){
+        for ($i = 1; $i < sizeof($row); $i++) {
+            if ($row[$i] > $max) {
                 $max = $row[$i];
                 $count++;
             }
@@ -25,13 +26,14 @@ class Skyscraper
     }
 
     // number of increases for column
-    function colCnt($c){
+    function colCnt($c)
+    {
         $count = 1;
-        $max = $this->skyscraper[0][$c-1];
+        $max = $this->skyscraper[0][$c - 1];
 
-        for($i = 1; $i<sizeof($this->skyscraper); $i++){
-            if($this->skyscraper[$i][$c-1]>$max){
-                $max = $this->skyscraper[$i][$c-1];
+        for ($i = 1; $i < sizeof($this->skyscraper); $i++) {
+            if ($this->skyscraper[$i][$c - 1] > $max) {
+                $max = $this->skyscraper[$i][$c - 1];
                 $count++;
             }
         }

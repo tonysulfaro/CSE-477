@@ -6,7 +6,7 @@ require 'format.inc.php';
 <head>
     <meta charset="UTF-8">
     <title>The Wumpus Killed You</title>
-    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 

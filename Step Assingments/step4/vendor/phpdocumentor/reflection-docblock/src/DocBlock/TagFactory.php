@@ -35,7 +35,7 @@ interface TagFactory
      * These parameters are injected at the last moment and will override any existing parameter with those names.
      *
      * @param string $name
-     * @param mixed  $value
+     * @param mixed $value
      *
      * @return void
      */
@@ -63,9 +63,9 @@ interface TagFactory
      * @param string $tagLine The text for this tag, including description.
      * @param TypeContext $context
      *
+     * @return Tag A new tag object.
      * @throws \InvalidArgumentException if an invalid tag line was presented.
      *
-     * @return Tag A new tag object.
      */
     public function create($tagLine, TypeContext $context = null);
 
@@ -80,14 +80,14 @@ interface TagFactory
      *                        name, along with a prefixing slash MUST be provided.
      * @param string $handler FQCN of handler.
      *
-     * @throws \InvalidArgumentException if the tag name is not a string
+     * @return void
      * @throws \InvalidArgumentException if the tag name is namespaced (contains backslashes) but does not start with
      *     a backslash
      * @throws \InvalidArgumentException if the handler is not a string
      * @throws \InvalidArgumentException if the handler is not an existing class
      * @throws \InvalidArgumentException if the handler does not implement the {@see Tag} interface
      *
-     * @return void
+     * @throws \InvalidArgumentException if the tag name is not a string
      */
     public function registerTagHandler($tagName, $handler);
 }

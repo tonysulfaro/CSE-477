@@ -34,9 +34,9 @@ final class ContextFactory
      *
      * @param \Reflector $reflector
      *
+     * @return Context
      * @see Context for more information on Contexts.
      *
-     * @return Context
      */
     public function createFromReflector(\Reflector $reflector)
     {

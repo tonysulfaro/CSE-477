@@ -3,7 +3,8 @@
  * @param $title - title for page
  * @return string - html header as a string to be embedded
  */
-function present_header($title) {
+function present_header($title)
+{
     $html = <<<HTML
 <header>
 <nav><p><a href="welcome.php">New Game</a>

@@ -15,9 +15,9 @@ use PHPUnit\Framework\TestCase;
 /**
  * @covers SebastianBergmann\Diff\Parser
  *
- * @uses SebastianBergmann\Diff\Chunk
- * @uses SebastianBergmann\Diff\Diff
- * @uses SebastianBergmann\Diff\Line
+ * @uses   SebastianBergmann\Diff\Chunk
+ * @uses   SebastianBergmann\Diff\Diff
+ * @uses   SebastianBergmann\Diff\Line
  */
 final class ParserTest extends TestCase
 {
@@ -81,7 +81,7 @@ index abcdefg..abcdefh 100644
 +++ b/Test.txt
 @@ -49,9 +49,8 @@
  A
--B
+            - B
 A;
         $diffs = $this->parser->parse($content);
         $this->assertInternalType('array', $diffs);
@@ -124,15 +124,15 @@ index abcdefg..abcdefh 100644
 +++ b/Test.txt
 @@ -1,3 +1,2 @@
  A
--B
+            - B
 
-diff --git a/Test123.txt b/Test123.txt
-index abcdefg..abcdefh 100644
---- a/Test2.txt
-+++ b/Test2.txt
-@@ -1,2 +1,3 @@
- A
-+B
+diff--git a / Test123 . txt b / Test123 . txt
+index abcdefg ..abcdefh 100644
+    --- a / Test2 . txt
+    +++ b / Test2 . txt
+@@ -1,2 + 1,3 @@
+    A
+    + B
 A;
         $diffs = $this->parser->parse($content);
         $this->assertCount(2, $diffs);

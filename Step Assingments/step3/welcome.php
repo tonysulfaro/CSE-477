@@ -6,7 +6,7 @@ require 'format.inc.php';
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Stalking the Wumpus</title>
-    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -16,7 +16,6 @@ require 'format.inc.php';
     <p><img src="images/cave-wumpus.jpg" id="cave-img-big" alt="wumpus"></p>
 
     <p>Welcome to <span class="bigText">Stalking the Wumpus</span></p>
-
 
 
     <nav class="welcomeNav">

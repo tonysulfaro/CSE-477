@@ -55,7 +55,8 @@ final class DocBlock
         Location $location = null,
         $isTemplateStart = false,
         $isTemplateEnd = false
-    ) {
+    )
+    {
         Assert::string($summary);
         Assert::boolean($isTemplateStart);
         Assert::boolean($isTemplateEnd);
@@ -127,9 +128,9 @@ final class DocBlock
      * The description and tags (not the summary!) are copied onto all subsequent DocBlocks and also applied to all
      * elements that follow until another DocBlock is found that contains the closing marker (`#@-`).
      *
+     * @return boolean
      * @see self::isTemplateEnd() for the check whether a closing marker was provided.
      *
-     * @return boolean
      */
     public function isTemplateStart()
     {
@@ -139,9 +140,9 @@ final class DocBlock
     /**
      * Returns whether this DocBlock is the end of a Template section.
      *
+     * @return boolean
      * @see self::isTemplateStart() for a more complete description of the Docblock Template functionality.
      *
-     * @return boolean
      */
     public function isTemplateEnd()
     {

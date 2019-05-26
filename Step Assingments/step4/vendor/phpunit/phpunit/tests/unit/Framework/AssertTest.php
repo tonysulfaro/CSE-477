@@ -166,9 +166,9 @@ class AssertTest extends TestCase
 
     public function testAssertArraySubsetWithNoStrictCheckAndObjects()
     {
-        $obj       = new \stdClass;
+        $obj = new \stdClass;
         $reference = &$obj;
-        $array     = ['a' => $obj];
+        $array = ['a' => $obj];
 
         $this->assertArraySubset(['a' => $reference], $array);
         $this->assertArraySubset(['a' => new \stdClass], $array);
@@ -176,9 +176,9 @@ class AssertTest extends TestCase
 
     public function testAssertArraySubsetWithStrictCheckAndObjects()
     {
-        $obj       = new \stdClass;
+        $obj = new \stdClass;
         $reference = &$obj;
-        $array     = ['a' => $obj];
+        $array = ['a' => $obj];
 
         $this->assertArraySubset(['a' => $reference], $array, true);
 
@@ -251,7 +251,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayHasKeyAcceptsArrayObjectValue()
     {
-        $array        = new \ArrayObject;
+        $array = new \ArrayObject;
         $array['foo'] = 'bar';
 
         $this->assertArrayHasKey('foo', $array);
@@ -259,7 +259,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayHasKeyProperlyFailsWithArrayObjectValue()
     {
-        $array        = new \ArrayObject;
+        $array = new \ArrayObject;
         $array['bar'] = 'bar';
 
         $this->expectException(AssertionFailedError::class);
@@ -269,7 +269,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayHasKeyAcceptsArrayAccessValue()
     {
-        $array        = new \SampleArrayAccess;
+        $array = new \SampleArrayAccess;
         $array['foo'] = 'bar';
 
         $this->assertArrayHasKey('foo', $array);
@@ -277,7 +277,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayHasKeyProperlyFailsWithArrayAccessValue()
     {
-        $array        = new \SampleArrayAccess;
+        $array = new \SampleArrayAccess;
         $array['bar'] = 'bar';
 
         $this->expectException(AssertionFailedError::class);
@@ -287,7 +287,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayNotHasKeyAcceptsArrayAccessValue()
     {
-        $array        = new \ArrayObject;
+        $array = new \ArrayObject;
         $array['foo'] = 'bar';
 
         $this->assertArrayNotHasKey('bar', $array);
@@ -295,7 +295,7 @@ class AssertTest extends TestCase
 
     public function testAssertArrayNotHasKeyPropertlyFailsWithArrayAccessValue()
     {
-        $array        = new \ArrayObject;
+        $array = new \ArrayObject;
         $array['bar'] = 'bar';
 
         $this->expectException(AssertionFailedError::class);
@@ -496,7 +496,7 @@ class AssertTest extends TestCase
         $object = new \SampleClass(4, 8, 15);
         // cannot use $filesDirectory, because neither setUp() nor
         // setUpBeforeClass() are executed before the data providers
-        $file     = TEST_FILES_PATH . 'foo.xml';
+        $file = TEST_FILES_PATH . 'foo.xml';
 
         $resource = \fopen($file, 'r');
 
@@ -526,21 +526,21 @@ class AssertTest extends TestCase
     protected function notEqualValues()
     {
         // cyclic dependencies
-        $book1                  = new \Book;
-        $book1->author          = new \Author('Terry Pratchett');
+        $book1 = new \Book;
+        $book1->author = new \Author('Terry Pratchett');
         $book1->author->books[] = $book1;
-        $book2                  = new \Book;
-        $book2->author          = new \Author('Terry Pratch');
+        $book2 = new \Book;
+        $book2->author = new \Author('Terry Pratch');
         $book2->author->books[] = $book2;
 
-        $book3         = new \Book;
+        $book3 = new \Book;
         $book3->author = 'Terry Pratchett';
-        $book4         = new \stdClass;
+        $book4 = new \stdClass;
         $book4->author = 'Terry Pratchett';
 
-        $object1  = new \SampleClass(4, 8, 15);
-        $object2  = new \SampleClass(16, 23, 42);
-        $object3  = new \SampleClass(4, 8, 15);
+        $object1 = new \SampleClass(4, 8, 15);
+        $object2 = new \SampleClass(16, 23, 42);
+        $object3 = new \SampleClass(4, 8, 15);
         $storage1 = new \SplObjectStorage;
         $storage1->attach($object1);
         $storage2 = new \SplObjectStorage;
@@ -553,7 +553,7 @@ class AssertTest extends TestCase
             ['a', 'b'],
             ['a', 'A'],
             // https://github.com/sebastianbergmann/phpunit/issues/1023
-            ['9E6666666','9E7777777'],
+            ['9E6666666', '9E7777777'],
             // integers
             [1, 2],
             [2, 1],
@@ -568,9 +568,9 @@ class AssertTest extends TestCase
             [NAN, NAN],
             // arrays
             [[], [0 => 1]],
-            [[0     => 1], []],
-            [[0     => null], []],
-            [[0     => 1, 1 => 2], [0     => 1, 1 => 3]],
+            [[0 => 1], []],
+            [[0 => null], []],
+            [[0 => 1, 1 => 2], [0 => 1, 1 => 3]],
             [['a', 'b' => [1, 2]], ['a', 'b' => [2, 1]]],
             // objects
             [new \SampleClass(4, 8, 15), new \SampleClass(16, 23, 42)],
@@ -651,7 +651,7 @@ class AssertTest extends TestCase
             // different types
             [new \SampleClass(4, 8, 15), false],
             [false, new \SampleClass(4, 8, 15)],
-            [[0        => 1, 1 => 2], false],
+            [[0 => 1, 1 => 2], false],
             [false, [0 => 1, 1 => 2]],
             [[], new \stdClass],
             [new \stdClass, []],
@@ -667,15 +667,15 @@ class AssertTest extends TestCase
     protected function equalValues()
     {
         // cyclic dependencies
-        $book1                  = new \Book;
-        $book1->author          = new \Author('Terry Pratchett');
+        $book1 = new \Book;
+        $book1->author = new \Author('Terry Pratchett');
         $book1->author->books[] = $book1;
-        $book2                  = new \Book;
-        $book2->author          = new \Author('Terry Pratchett');
+        $book2 = new \Book;
+        $book2->author = new \Author('Terry Pratchett');
         $book2->author->books[] = $book2;
 
-        $object1  = new \SampleClass(4, 8, 15);
-        $object2  = new \SampleClass(4, 8, 15);
+        $object1 = new \SampleClass(4, 8, 15);
+        $object2 = new \SampleClass(4, 8, 15);
         $storage1 = new \SplObjectStorage;
         $storage1->attach($object1);
         $storage2 = new \SplObjectStorage;
@@ -769,8 +769,8 @@ class AssertTest extends TestCase
             ['0', 0],
             [2.3, '2.3'],
             ['2.3', 2.3],
-            [(string) (1 / 3), 1 - 2 / 3],
-            [1 / 3, (string) (1 - 2 / 3)],
+            [(string)(1 / 3), 1 - 2 / 3],
+            [1 / 3, (string)(1 - 2 / 3)],
             ['string representation', new \ClassWithToString],
             [new \ClassWithToString, 'string representation'],
         ];
@@ -2185,7 +2185,7 @@ XML;
 
     public function testObjectHasOnTheFlyAttribute()
     {
-        $obj      = new \stdClass;
+        $obj = new \stdClass;
         $obj->foo = 'bar';
 
         $this->assertObjectHasAttribute('foo', $obj);
@@ -2197,7 +2197,7 @@ XML;
 
     public function testObjectNotHasOnTheFlyAttribute()
     {
-        $obj      = new \stdClass;
+        $obj = new \stdClass;
         $obj->foo = 'bar';
 
         $this->assertObjectNotHasAttribute('bar', $obj);
@@ -2404,7 +2404,7 @@ XML;
 
     public function testAssertThatIdenticalTo()
     {
-        $value      = new \stdClass;
+        $value = new \stdClass;
         $constraint = $this->identicalTo($value);
 
         $this->assertThat($value, $constraint);
@@ -2691,7 +2691,7 @@ XML;
 
     public function testAssertAttributeEmpty()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = [];
 
         $this->assertAttributeEmpty('a', $o);
@@ -2705,7 +2705,7 @@ XML;
 
     public function testAssertAttributeNotEmpty()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = ['b'];
 
         $this->assertAttributeNotEmpty('a', $o);
@@ -2789,7 +2789,7 @@ XML;
 
     public function testAssertAttributeCount()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = [];
 
         $this->assertAttributeCount(0, 'a', $o);
@@ -2820,7 +2820,7 @@ XML;
 
     public function testAssertAttributeNotCount()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = [];
 
         $this->assertAttributeNotCount(1, 'a', $o);
@@ -2899,8 +2899,8 @@ XML;
     public function testAssertJsonStringEqualsJsonString()
     {
         $expected = '{"Mascott" : "Tux"}';
-        $actual   = '{"Mascott" : "Tux"}';
-        $message  = 'Given Json strings do not match';
+        $actual = '{"Mascott" : "Tux"}';
+        $message = 'Given Json strings do not match';
 
         $this->assertJsonStringEqualsJsonString($expected, $actual, $message);
     }
@@ -2918,8 +2918,8 @@ XML;
     public function testAssertJsonStringNotEqualsJsonString()
     {
         $expected = '{"Mascott" : "Beastie"}';
-        $actual   = '{"Mascott" : "Tux"}';
-        $message  = 'Given Json strings do match';
+        $actual = '{"Mascott" : "Tux"}';
+        $message = 'Given Json strings do match';
 
         $this->assertJsonStringNotEqualsJsonString($expected, $actual, $message);
     }
@@ -2936,8 +2936,8 @@ XML;
 
     public function testAssertJsonStringEqualsJsonFile()
     {
-        $file    = TEST_FILES_PATH . '/JsonData/simpleObject.json';
-        $actual  = \json_encode(['Mascott' => 'Tux']);
+        $file = TEST_FILES_PATH . '/JsonData/simpleObject.json';
+        $actual = \json_encode(['Mascott' => 'Tux']);
         $message = '';
 
         $this->assertJsonStringEqualsJsonFile($file, $actual, $message);
@@ -2945,8 +2945,8 @@ XML;
 
     public function testAssertJsonStringEqualsJsonFileExpectingExpectationFailedException()
     {
-        $file    = TEST_FILES_PATH . '/JsonData/simpleObject.json';
-        $actual  = \json_encode(['Mascott' => 'Beastie']);
+        $file = TEST_FILES_PATH . '/JsonData/simpleObject.json';
+        $actual = \json_encode(['Mascott' => 'Beastie']);
         $message = '';
 
         try {
@@ -2978,8 +2978,8 @@ XML;
 
     public function testAssertJsonStringNotEqualsJsonFile()
     {
-        $file    = TEST_FILES_PATH . '/JsonData/simpleObject.json';
-        $actual  = \json_encode(['Mascott' => 'Beastie']);
+        $file = TEST_FILES_PATH . '/JsonData/simpleObject.json';
+        $actual = \json_encode(['Mascott' => 'Beastie']);
         $message = '';
 
         $this->assertJsonStringNotEqualsJsonFile($file, $actual, $message);
@@ -3001,15 +3001,15 @@ XML;
     public function testAssertJsonFileNotEqualsJsonFile()
     {
         $fileExpected = TEST_FILES_PATH . '/JsonData/simpleObject.json';
-        $fileActual   = TEST_FILES_PATH . '/JsonData/arrayObject.json';
-        $message      = '';
+        $fileActual = TEST_FILES_PATH . '/JsonData/arrayObject.json';
+        $message = '';
 
         $this->assertJsonFileNotEqualsJsonFile($fileExpected, $fileActual, $message);
     }
 
     public function testAssertJsonFileEqualsJsonFile()
     {
-        $file    = TEST_FILES_PATH . '/JsonData/simpleObject.json';
+        $file = TEST_FILES_PATH . '/JsonData/simpleObject.json';
         $message = '';
 
         $this->assertJsonFileEqualsJsonFile($file, $file, $message);
@@ -3033,7 +3033,7 @@ XML;
 
     public function testAssertAttributeInstanceOf()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = new \stdClass;
 
         $this->assertAttributeInstanceOf(\stdClass::class, 'a', $o);
@@ -3057,7 +3057,7 @@ XML;
 
     public function testAssertAttributeNotInstanceOf()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = new \stdClass;
 
         $this->assertAttributeNotInstanceOf(\Exception::class, 'a', $o);
@@ -3090,7 +3090,7 @@ XML;
 
     public function testAssertAttributeInternalType()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = 1;
 
         $this->assertAttributeInternalType('integer', 'a', $o);
@@ -3114,7 +3114,7 @@ XML;
 
     public function testAssertAttributeNotInternalType()
     {
-        $o    = new \stdClass;
+        $o = new \stdClass;
         $o->a = 1;
 
         $this->assertAttributeNotInternalType('string', 'a', $o);
@@ -3173,7 +3173,7 @@ XML;
     {
         return [
             'error syntax in expected JSON' => ['{"Mascott"::}', '{"Mascott" : "Tux"}'],
-            'error UTF-8 in actual JSON'    => ['{"Mascott" : "Tux"}', '{"Mascott" : :}'],
+            'error UTF-8 in actual JSON' => ['{"Mascott" : "Tux"}', '{"Mascott" : :}'],
         ];
     }
 }

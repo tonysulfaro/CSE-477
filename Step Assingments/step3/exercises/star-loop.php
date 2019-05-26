@@ -8,10 +8,10 @@ echo "<title>Basic Page</title>";
 echo "</head>";
 echo "<body>";
 
-for($i=1; $i<=10; $i++){
+for ($i = 1; $i <= 10; $i++) {
     $thing = "";
-    for($j=1; $j<=$i; $j++){
-        $thing.="*";
+    for ($j = 1; $j <= $i; $j++) {
+        $thing .= "*";
     }
     echo "<p>$thing $i stars</p>";
 }

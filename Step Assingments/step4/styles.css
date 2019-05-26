@@ -16,20 +16,20 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-header{
+header {
     background: #3f3622;
 }
 
-header nav{
+header nav {
     text-align: right;
     padding: 0.5em;
 }
 
-nav.welcomeNav p{
+nav.welcomeNav p {
     margin: 1em;
 }
 
-header h1{
+header h1 {
     text-align: center;
     padding: 0.5em;
     color: white;
@@ -42,17 +42,17 @@ header h1{
     padding: 1em;
 }
 
-.game p{
+.game p {
     font-size: 1.5em;
 }
 
-#cave-img-big{
+#cave-img-big {
     padding: 0.5em;
     border: 1px solid black;
     margin-bottom: 0.5em;
 }
 
-#room-number{
+#room-number {
     margin: 1em;
 }
 
@@ -62,37 +62,37 @@ div.room {
     text-align: center;
 }
 
-div.room-content p{
+div.room-content p {
     font-size: 1.5em;
 }
 
-.rooms{
+.rooms {
     margin: 1em;
     text-align: center;
 }
 
-.instructions p{
+.instructions p {
     font-size: 1em;
     margin: 0 0 2em 0;
     text-align: left;
     font-family: "Times New Roman";
 }
 
-span.bigText{
+span.bigText {
     font-size: 1.5em;
     font-style: italic;
 }
 
 
-a:link{
+a:link {
     color: grey;
 }
 
-a:visited{
+a:visited {
     color: grey;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 

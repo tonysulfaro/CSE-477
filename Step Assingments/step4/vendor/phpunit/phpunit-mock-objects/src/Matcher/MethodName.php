@@ -7,6 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+
 namespace PHPUnit\Framework\MockObject\Matcher;
 
 use PHPUnit\Framework\Constraint\Constraint;
@@ -29,7 +30,7 @@ class MethodName extends StatelessInvocation
     private $constraint;
 
     /**
-     * @param  Constraint|string
+     * @param Constraint|string
      *
      * @throws Constraint
      * @throws \PHPUnit\Framework\Exception

@@ -77,14 +77,14 @@ final class TypeResolver
      * This method only works as expected if the namespace and aliases are set;
      * no dynamic reflection is being performed here.
      *
-     * @param string $type     The relative or absolute type.
+     * @param string $type The relative or absolute type.
      * @param Context $context
      *
-     * @uses Context::getNamespace()        to determine with what to prefix the type name.
+     * @return Type|null
      * @uses Context::getNamespaceAliases() to check whether the first part of the relative type name should not be
      *     replaced with another namespace.
      *
-     * @return Type|null
+     * @uses Context::getNamespace()        to determine with what to prefix the type name.
      */
     public function resolve($type, Context $context = null)
     {
