@@ -46,7 +46,9 @@ HTML;
         }
 
         if($this->wumpus->wasCarried()){
-            $html .= 'You were carried by the birds to room $room!';
+            $html .= '<p>You were carried by the birds to room ';
+                $html .= $room;
+                $html .= '!</p>';
         }
 
         return $html;
