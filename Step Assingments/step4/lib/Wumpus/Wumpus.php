@@ -94,6 +94,10 @@ class Wumpus
      */
     public function shoot($ndx)
     {
+        //out of arrows
+        if ($this->arrows == 0) {
+            return false;
+        }
         $this->arrows--;
         $shootRoom = $this->getRoom($ndx);
 
@@ -138,7 +142,7 @@ class Wumpus
     {
         $adjacentRooms = $this->current->getNeighbors();
         foreach ($adjacentRooms as $room) {
-            if ($room->contains(self::PIT,0)){
+            if ($room->contains(self::PIT, 0)) {
                 return true;
             }
         }
@@ -149,7 +153,7 @@ class Wumpus
     {
         $adjacentRooms = $this->current->getNeighbors();
         foreach ($adjacentRooms as $room) {
-            if ($room->contains(self::BIRDS,0)){
+            if ($room->contains(self::BIRDS, 0)) {
                 return true;
             }
         }
