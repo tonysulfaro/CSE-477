@@ -1,5 +1,7 @@
 <?php
 require 'format.inc.php';
+require 'lib/game.inc.php';
+$view = new Wumpus\WumpusView($wumpus);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,32 +20,23 @@ require 'format.inc.php';
     <?php
     echo '<p>' . date("g:ia l, F j, Y") . '</p>';
     ?>
-    <p id="room-number">You are in room ????</p>
 
 
-    <!--    hear birds, breeze, wumpus-->
+    <?php
+    echo $view->presentStatus();
+    ?>
 
     <div class="rooms">
-        <div class="room">
-            <img src="images/cave2.jpg" alt="cave2">
-            <p><a href="">1</a></p>
-            <p><a href="">Shoot Arrow</a></p>
-        </div>
-
-        <div class="room">
-            <img src="images/cave2.jpg" alt="cave2">
-            <p><a href="">2</a></p>
-            <p><a href="">Shoot Arrow</a></p>
-        </div>
-
-        <div class="room">
-            <img src="images/cave2.jpg" alt="cave2">
-            <p><a href="">3</a></p>
-            <p><a href="">Shoot Arrow</a></p>
-        </div>
+        <?php
+        echo $view->presentRoom(0);
+        echo $view->presentRoom(1);
+        echo $view->presentRoom(2);
+        ?>
     </div>
 
-    <p>You have 3 arrows remaining.</p>
+    <?php
+    echo $view->presentArrows();
+    ?>
 
 
 </div>

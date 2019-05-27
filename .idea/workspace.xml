@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="finish step1">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step4/lib/game.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusViewTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Room.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step4/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step4/game.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,22 +22,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/RoomTest.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusViewTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="858">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Room.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-              <folding>
-                <element signature="e#6#64#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/game.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -108,7 +114,6 @@
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/Skyscraper.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/wumpus.inc.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/composer.json" />
-        <option value="$PROJECT_DIR$/Step Assingments/step4/game.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/class.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/test.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/discount.php" />
@@ -118,6 +123,10 @@
         <option value="$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Room.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step4/lib/game.inc.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusViewTest.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step4/game.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php" />
       </list>
     </option>
   </component>
@@ -269,7 +278,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="26325000" />
+      <workItem from="1558411599932" duration="28825000" />
     </task>
     <servers />
   </component>
@@ -285,7 +294,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38149000" />
+    <option name="totallyTimeSpent" value="40649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -318,16 +327,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step1/cat1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step1/boom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step1/grading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -604,22 +603,8 @@
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/format.inc.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/grading.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,9 +613,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/game.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/RoomTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
+        <state relative-caret-position="1275">
           <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
         </state>
       </provider>
@@ -642,6 +634,34 @@
           <folding>
             <element signature="e#6#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusViewTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
         </state>
       </provider>
     </entry>
