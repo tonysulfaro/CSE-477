@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="finish step1">
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/step5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/Quadratic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/Quadratic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/step2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,29 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -60,10 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step1/boom.html" />
-        <option value="$PROJECT_DIR$/Step Assingments/step1/Grading.html" />
-        <option value="$PROJECT_DIR$/Step Assingments/step1/dogs.html" />
-        <option value="$PROJECT_DIR$/Step Assingments/step1/index.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step1/is_bad.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step2/island_life.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step2/quizmore.css" />
@@ -109,6 +100,12 @@
         <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusController.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/Quadratic.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/page.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/test.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/page.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/Quadratic.php" />
       </list>
     </option>
   </component>
@@ -152,37 +149,22 @@
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Wumpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Guessing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +242,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="32703000" />
+      <workItem from="1558411599932" duration="34545000" />
     </task>
     <servers />
   </component>
@@ -276,16 +258,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44527000" />
+    <option name="totallyTimeSpent" value="46369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29448622" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -309,48 +290,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step1/dogs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/step2/quizmore.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/step2/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/win.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step2/lose.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -627,10 +566,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/Quadratic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -641,10 +594,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="372">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/Quadratic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
