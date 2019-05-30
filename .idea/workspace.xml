@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="finish step1">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/step5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/Quadratic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/Quadratic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/step2/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="finish step1" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -158,14 +143,6 @@
               <item name="step5" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Guessing" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,6 +173,7 @@
       <recent name="$PROJECT_DIR$/Step Assingments/step2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Step Assingments/step5" />
       <recent name="$PROJECT_DIR$/Step Assingments/step2/step2" />
     </key>
   </component>
@@ -242,7 +220,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="34545000" />
+      <workItem from="1558411599932" duration="34798000" />
     </task>
     <servers />
   </component>
@@ -258,15 +236,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46369000" />
+    <option name="totallyTimeSpent" value="46622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29448622" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29448622" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -625,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit2/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
