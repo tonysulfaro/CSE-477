@@ -28,7 +28,7 @@ HTML;
     <?php echo guessText()?>
 
     <form method="post" action="guessing-post.php">
-        <p><label for="guess">Guess: </label><input></p>
+        <p><label for="guess">Guess: </label><input name="guess"></p>
         <p><input type="submit"></p>
         <p><input type="button" value="New Game"></p>
     </form>

@@ -27,8 +27,12 @@ form p {
     margin: 0 1em 1em 1em;
 }
 
-input[type="submit"],input[type="button"] {
-    width: 17em;
+input[type="submit"], input[type="button"] {
+    width: 9em;
+}
+
+input[name="guess"] {
+    width: 3em;
 }
 
 #guess-status {
