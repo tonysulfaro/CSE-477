@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/guessing-post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/guessing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/guesssing.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/guessing.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step5/guessing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step5/guessing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step5/lib/guesssing.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step5/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step5/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,28 +24,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/guessing.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step2/styles.css">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="783">
+              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+              <folding>
+                <element signature="e#77#83#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing-post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -72,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step2/welcome.html" />
-        <option value="$PROJECT_DIR$/Step Assingments/step2/instructions.html" />
-        <option value="$PROJECT_DIR$/Step Assingments/step2/lose.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step2/win.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/exercises/first-page.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/exercises/star-loop.php" />
@@ -119,10 +155,13 @@
         <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/styles.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/guessing-post.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/guessing.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/tests/test/GuessingTest.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/lib/guesssing.inc.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/guessing.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/styles.css" />
+        <option value="$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php" />
       </list>
     </option>
   </component>
@@ -209,6 +248,14 @@
               <item name="step5" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -290,7 +337,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="39763000" />
+      <workItem from="1558411599932" duration="43348000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -299,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559186268250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="have css for step5 final exercise">
+      <created>1559194001490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559194001490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tweaked css step5 final">
+      <created>1559194302268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559194302268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -314,7 +375,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51587000" />
+    <option name="totallyTimeSpent" value="55172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -348,23 +409,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
+    <MESSAGE value="have css for step5 final exercise" />
+    <MESSAGE value="tweaked css step5 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaked css step5 final" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step3/exercises/first-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step3/instructions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step3/grading.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -635,27 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/guesssing.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -663,31 +691,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step2/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="333">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="496">
+          <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step5/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/guessing.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="e#77#83#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/guessing-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>

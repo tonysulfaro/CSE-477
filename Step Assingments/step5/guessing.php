@@ -1,13 +1,6 @@
 <?php
-$thing = 0;
-$guess_count = 0;
-
-function guessText(){
-    $html = <<<HTML
-<p id="guess-status">After guesses you are too ???!</p>
-HTML;
-    return $html;
-}
+require __DIR__ . '/lib/guessing.inc.php';
+$view = new Guessing\GuessingView($guessing);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,18 +13,6 @@ HTML;
 
 <body>
 
-<div class="game">
-    <header>
-        <h1>Guessing Game</h1>
-    </header>
-
-    <?php echo guessText()?>
-
-    <form method="post" action="guessing-post.php">
-        <p><label for="guess">Guess: </label><input name="guess"></p>
-        <p><input type="submit"></p>
-        <p><input type="button" value="New Game"></p>
-    </form>
-</div>
+<?php echo $view->present(); ?>
 
 </body>
