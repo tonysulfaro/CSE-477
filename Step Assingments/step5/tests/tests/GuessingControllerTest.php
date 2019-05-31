@@ -1,3 +1,5 @@
+<?php
+
 // This allows us to use just Guessing
 // instead of Guessing\Guessing
 use Guessing\Guessing as Guessing;
