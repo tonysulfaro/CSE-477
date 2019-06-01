@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/instructions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/completed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/example1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/initial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/lightemup-800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/lightemup1-800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/images/shaded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project0/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/instructions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,47 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/Guessing.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project0/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project0/game.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project0/options.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="783">
+              <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -71,40 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project0/instructions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project0/styles.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="648">
+              <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+              <folding>
+                <element signature="e#1340#1346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -123,6 +64,7 @@
     <findStrings>
       <find>right</find>
       <find>border</find>
+      <find>N</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step3/format.inc.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step3/styles.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/grading.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step3/wumpus.inc.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/Adder.php" />
@@ -178,6 +118,8 @@
         <option value="$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/styles.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/table.html" />
+        <option value="$PROJECT_DIR$/Step Assingments/project0/images/index.html" />
+        <option value="$PROJECT_DIR$/Step Assingments/project0/index.html" />
         <option value="$PROJECT_DIR$/Step Assingments/project0/game.html" />
         <option value="$PROJECT_DIR$/Step Assingments/project0/options.html" />
         <option value="$PROJECT_DIR$/Step Assingments/project0/instructions.html" />
@@ -226,86 +168,14 @@
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="project0" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
               <item name="step2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Wumpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="quiztables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Guessing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step5" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +193,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Step Assingments/step5/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Step Assingments/project0/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -332,17 +202,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Step Assingments/project0/images" />
       <recent name="$PROJECT_DIR$/Step Assingments/step5/tests" />
       <recent name="$PROJECT_DIR$/Step Assingments/step4" />
       <recent name="$PROJECT_DIR$/Step Assingments/step3" />
       <recent name="$PROJECT_DIR$/Step Assingments/step2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Step Assingments/project0" />
       <recent name="$PROJECT_DIR$/Step Assingments" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Step Assingments/step5/tests/tests" />
       <recent name="$PROJECT_DIR$/Step Assingments/step5/tests" />
-      <recent name="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +259,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="52478000" />
+      <workItem from="1558411599932" duration="56010000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -432,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559351868156</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial project0 files">
+      <created>1559353291646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559353291646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -447,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64302000" />
+    <option name="totallyTimeSpent" value="67834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -486,7 +364,8 @@
     <MESSAGE value="tweaked css after using view to generate page" />
     <MESSAGE value="I hate this" />
     <MESSAGE value="things pass now" />
-    <option name="LAST_COMMIT_MESSAGE" value="things pass now" />
+    <MESSAGE value="initial project0 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial project0 files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,20 +384,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step3/format.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step3/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/wumpus.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -713,20 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -779,17 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="273">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -800,17 +644,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingViewTest.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/tests/tests/GuessingTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="195">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/styles.css">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="25">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -821,29 +679,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project0/game.html">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step5/exercises/quiztables/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project0/options.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step2/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project0/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#570#576#1" expanded="true" />
+            <element signature="e#594#600#1" expanded="true" />
+            <element signature="e#619#625#0" expanded="true" />
+            <element signature="e#642#648#1" expanded="true" />
+            <element signature="e#747#753#1" expanded="true" />
+            <element signature="e#734#740#1" expanded="true" />
+            <element signature="e#783#789#1" expanded="true" />
+            <element signature="e#807#813#1" expanded="true" />
+            <element signature="e#874#880#1" expanded="true" />
+            <element signature="e#899#905#0" expanded="true" />
+            <element signature="e#923#929#1" expanded="true" />
+            <element signature="e#947#953#1" expanded="true" />
+            <element signature="e#990#996#1" expanded="true" />
+            <element signature="e#1014#1020#1" expanded="true" />
+            <element signature="e#1039#1045#0" expanded="true" />
+            <element signature="e#1063#1069#1" expanded="true" />
+            <element signature="e#1087#1093#1" expanded="true" />
+            <element signature="e#1130#1136#1" expanded="true" />
+            <element signature="e#1154#1160#1" expanded="true" />
+            <element signature="e#1179#1185#0" expanded="true" />
+            <element signature="e#1203#1209#1" expanded="true" />
+            <element signature="e#1227#1233#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project0/instructions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="648">
+          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+          <folding>
+            <element signature="e#1340#1346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project0/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
