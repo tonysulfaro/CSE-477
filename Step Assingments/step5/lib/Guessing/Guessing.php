@@ -9,11 +9,11 @@ class Guessing
     // constants
     const MIN = 1;
     const MAX = 100;
+
     const INVALID = -1;
     const TOOLOW = 0;
     const CORRECT = 1;
     const TOOHIGH = 2;
-    const NOGUESS = 5;
 
     // ctor
     public function __construct($seed = null)
@@ -48,28 +48,23 @@ class Guessing
         $this->user_guess = $num;
 
         # validate input
-        if (is_numeric($num)) {
-            if ($num <= 100 && $num >= 1) {
-                $this->num_guesses++;
-            }
+        if ($this->check() != self::INVALID) {
+            $this->num_guesses++;
         }
     }
 
     public function check()
     {
-        # check if is numeric
-        if (! is_numeric($this->user_guess) || $this->user_guess < self::MIN || $this->user_guess > self::MAX) {
+        if ($this->user_guess < self::MIN || $this->user_guess > self::MAX){
             return self::INVALID;
         }
-        if ($this->num_guesses == 0) {
-            return self::NOGUESS;
-        }
-        if ($this->user_guess == $this->number) {
+        else if ($this->user_guess == $this->number) {
             return self::CORRECT;
         }
-        if ($this->user_guess < $this->number) {
+        else if ($this->user_guess < $this->number) {
             return self::TOOLOW;
-        } else {
+        }
+        else if($this->user_guess > $this->number){
             return self::TOOHIGH;
         }
         # check if they have guessed before they check

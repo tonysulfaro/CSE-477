@@ -4,7 +4,11 @@ require __DIR__ . "/../vendor/autoload.php";
 // Start the PHP session system
 session_start();
 
-define("GUESSING_SESSION", 'wumpus');
+define("GUESSING_SESSION", 'guessing');
+
+if(!isset($_SESSION[GUESSING_SESSION])){
+    $_SESSION[GUESSING_SESSION] = new Guessing\Guessing();
+}
 
 /* Something is missing here!!!! */
 if (isset($_GET['seed'])) {
