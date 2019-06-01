@@ -55,16 +55,13 @@ class Guessing
 
     public function check()
     {
-        if ($this->user_guess < self::MIN || $this->user_guess > self::MAX){
+        if ($this->user_guess < self::MIN || $this->user_guess > self::MAX) {
             return self::INVALID;
-        }
-        else if ($this->user_guess == $this->number) {
+        } else if ($this->user_guess == $this->number) {
             return self::CORRECT;
-        }
-        else if ($this->user_guess < $this->number) {
+        } else if ($this->user_guess < $this->number) {
             return self::TOOLOW;
-        }
-        else if($this->user_guess > $this->number){
+        } else if ($this->user_guess > $this->number) {
             return self::TOOHIGH;
         }
         # check if they have guessed before they check
@@ -73,6 +70,6 @@ class Guessing
 
     // working vars
     private $number;
-    private $user_guess;
+    private $user_guess = self::MIN * 2;
     private $num_guesses = 0;
 }
