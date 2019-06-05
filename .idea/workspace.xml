@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/World.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step6/quizpdo/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step6/quizselect2/catsWithMultipleOwners.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/grading.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/grading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/instructions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project0/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project0/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,35 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step6/quizpdo/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/World.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -288,7 +250,7 @@
       <updated>1557800779948</updated>
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
-      <workItem from="1558411599932" duration="65653000" />
+      <workItem from="1558411599932" duration="66780000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -346,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559356836235</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="close on quiz for step6">
+      <created>1559700928262</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559700928262</updated>
+    </task>
+    <task id="LOCAL-00010" summary="formatting correct">
+      <created>1559701110758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559701110758</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -361,11 +337,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77477000" />
+    <option name="totallyTimeSpent" value="78604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29448622" />
@@ -402,7 +377,9 @@
     <MESSAGE value="things pass now" />
     <MESSAGE value="initial project0 files" />
     <MESSAGE value="basically did project0" />
-    <option name="LAST_COMMIT_MESSAGE" value="basically did project0" />
+    <MESSAGE value="close on quiz for step6" />
+    <MESSAGE value="formatting correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting correct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,6 +748,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step6/quizpdo/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -782,13 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -21,9 +21,10 @@ class World {
 
     public function present() {
         $sql = <<<SQL
-select region, code
+select region, code, name
 from Country
 where region=?
+order by name
 SQL;
 
         $stmt = $this->pdo->prepare($sql);
@@ -38,7 +39,7 @@ HTML;
 
         // create ul for regions
         foreach($stmt as $row) {
-            $name = $row['region'];
+            $name = $row['name'];
             $code = $row['code'];
             $html .= "<li>$name";
 
