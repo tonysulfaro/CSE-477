@@ -40,7 +40,7 @@ HTML;
         foreach($stmt as $row) {
             $name = $row['region'];
             $code = $row['code'];
-            $html .= "<ul><li>$name";
+            $html .= "<li>$name";
 
             //sql for language
             $sql = <<<SQL
@@ -54,13 +54,15 @@ SQL;
                 return "<p>SQL execution failed.</p>";
             }
 
+            $html .= "<ul>";
+
             //generate language container
             foreach($stmt2 as $row2){
                 $language = $row2['Language'];
                 $code2 = $row2['CountryCode'];
-                $html .= "$language<li></li>";
+                $html .= "<li>$language</li>";
             }
-            $html .= "</li></ul>";
+            $html .= "</ul></li>";
         }
 
 
