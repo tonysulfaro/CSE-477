@@ -26,9 +26,10 @@ HTML;
     }
 
     public function presentBody(){
+        // TODO change form action to post/game-post.php
         $html = <<< HTML
 <div class="body">
-    <form class="game" method="post" action="post/game-post.php">
+    <form class="game" method="post" action="game-post.php">
         <table>
             <tr>
                 <td>

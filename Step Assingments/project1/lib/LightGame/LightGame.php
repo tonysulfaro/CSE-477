@@ -23,6 +23,9 @@ class LightGame
         return $this->playerName;
     }
 
-    private $playerName = "TEST NAME";
+    public function setPlayerName($name){
+        $this->playerName = $name;
+    }
 
+    private $playerName = "TEST NAME";
 }

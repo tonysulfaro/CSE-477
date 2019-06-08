@@ -26,7 +26,7 @@ HTML;
     {
         $html = <<< HTML
         <div class="body">
-    <form class="newgame" method="post" action="post/index-post.php">
+    <form class="newgame" method="post" action="index-post.php">
         <div class="controls">
             <p class="name"><label for="name">Name </label><br><input type="text" id="name" name="name">
             </p>
