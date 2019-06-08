@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/game.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/game.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/completed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/example1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/initial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/lightemup-800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/lightemup1-800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/images/shaded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/instructions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/games/10x10easy-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/games/5x5easy-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/games/5x5hard-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/games/7x7easy-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/games/7x7medium-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,26 +49,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,10 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step4/composer.json" />
-        <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/class.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/test.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/discount.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/exercises/discount-test.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/test/tests/RoomTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step4/tests/tests/RoomTest.php" />
@@ -136,6 +120,10 @@
         <option value="$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/page.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step6/quizpdo/page.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step6/quizpdo/World.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/game.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/composer.json" />
       </list>
     </option>
   </component>
@@ -157,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +168,52 @@
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="LightGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
               <item name="step5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Guessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step5" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +259,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Step Assingments/project1/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Step Assingments/project1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -234,18 +267,18 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Step Assingments/step6/quizpdo" />
-      <recent name="$PROJECT_DIR$/Step Assingments/project0/images" />
-      <recent name="$PROJECT_DIR$/Step Assingments/step5/tests" />
-      <recent name="$PROJECT_DIR$/Step Assingments/step4" />
-      <recent name="$PROJECT_DIR$/Step Assingments/step3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Step Assingments/project0" />
       <recent name="$PROJECT_DIR$/Step Assingments" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Step Assingments/step5/tests/tests" />
+      <recent name="$PROJECT_DIR$/Step Assingments/step5/tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Step Assingments/project1" />
+      <recent name="$PROJECT_DIR$/Step Assingments/project1/tests" />
+      <recent name="$PROJECT_DIR$/Step Assingments/step6/quizpdo" />
+      <recent name="$PROJECT_DIR$/Step Assingments/project0/images" />
       <recent name="$PROJECT_DIR$/Step Assingments/step5/tests" />
     </key>
   </component>
@@ -293,7 +326,8 @@
       <workItem from="1557800782779" duration="9353000" />
       <workItem from="1558316565012" duration="2471000" />
       <workItem from="1558411599932" duration="66780000" />
-      <workItem from="1559953507325" duration="653000" />
+      <workItem from="1559953507325" duration="2614000" />
+      <workItem from="1560017638402" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -365,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559701110758</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added project1 base files for MVC">
+      <created>1559961075605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559961075606</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -380,19 +421,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79257000" />
+    <option name="totallyTimeSpent" value="81800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30200502" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30952382" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32941177" />
-      <window_info anchor="bottom" id="File Transfer" order="4" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32941177" />
@@ -422,7 +463,8 @@
     <MESSAGE value="basically did project0" />
     <MESSAGE value="close on quiz for step6" />
     <MESSAGE value="formatting correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="formatting correct" />
+    <MESSAGE value="added project1 base files for MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project1 base files for MVC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,68 +483,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/exercises/discount-test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/test/tests/RoomTest.php" />
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/testrunner.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/format.inc.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Room.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-          <folding>
-            <element signature="e#6#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/grading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/game-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusViewTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/WumpusTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/tests/tests/RoomTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-642">
@@ -792,6 +772,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -799,10 +796,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/tests/tests/LightGameControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/tests/tests/LightGameViewTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/tests/tests/LightGameTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/tests/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/games/5x5easy-1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
