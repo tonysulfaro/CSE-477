@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/index-post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewOptions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewWelcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewWelcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project1/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/options.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,31 +33,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/index-post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/options.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -97,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/Wumpus.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/Quadratic.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/page.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/exercises/quizphpunit/test.php" />
@@ -138,16 +111,17 @@
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameView.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/index.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewBase.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project1/instructions.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewInstructions.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/game.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/post/index-post.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project1/options.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/index-post.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewWelcome.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewOptions.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/instructions.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/options.php" />
       </list>
     </option>
   </component>
@@ -289,7 +263,7 @@
       <workItem from="1558411599932" duration="66780000" />
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
-      <workItem from="1560019414762" duration="7614000" />
+      <workItem from="1560019414762" duration="8087000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -382,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560027737901</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="have user name added to session">
+      <created>1560028971128</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560028971128</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -397,7 +378,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90329000" />
+    <option name="totallyTimeSpent" value="90802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -443,7 +424,8 @@
     <MESSAGE value="added project1 base files for MVC" />
     <MESSAGE value="proj1 composer install" />
     <MESSAGE value="views implemented, game session test constructed" />
-    <option name="LAST_COMMIT_MESSAGE" value="views implemented, game session test constructed" />
+    <MESSAGE value="have user name added to session" />
+    <option name="LAST_COMMIT_MESSAGE" value="have user name added to session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,13 +444,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step4/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step4/lib/Wumpus/WumpusView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -753,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/instructions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -767,24 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewInstructions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -809,6 +763,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -823,12 +784,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameController.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/instructions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewOptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewInstructions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/options.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -7,7 +7,8 @@ namespace LightGame;
 class LightGameViewInstructions extends LightGameViewBase
 {
 
-    public function presentHeader(){
+    public function presentHeader()
+    {
 
         $html = <<< HTML
         <header>
@@ -20,8 +21,9 @@ HTML;
         return $html;
     }
 
-    public function presentBody(){
-        $html  = <<< HTML
+    public function presentBody()
+    {
+        $html = <<< HTML
 <div class="body">
 
     <div class="instructions">
@@ -71,6 +73,14 @@ HTML;
 
 HTML;
 
+        return $html;
+    }
+
+    public function present()
+    {
+        $html = $this->presentHeader();
+        $html .= $this->presentBody();
+        $html .= $this->presentFooter();
         return $html;
     }
 

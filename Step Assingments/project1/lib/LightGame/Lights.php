@@ -10,5 +10,6 @@ class Lights
     {
         $this->lights = $REPLACE;
     }
+
     private $lights;
 }

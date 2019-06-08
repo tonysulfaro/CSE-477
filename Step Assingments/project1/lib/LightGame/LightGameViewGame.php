@@ -13,7 +13,8 @@ class LightGameViewGame extends LightGameViewBase
         $this->playerName = $lightGame->getPlayerName();
     }
 
-    public function presentHeader(){
+    public function presentHeader()
+    {
         $html = <<< HTML
 <header>
     <p class="center"><img src="images/lightemup-800.png" width="800" height="140" alt="Header image"/></p>
@@ -25,7 +26,8 @@ HTML;
         return $html;
     }
 
-    public function presentBody(){
+    public function presentBody()
+    {
         // TODO change form action to post/game-post.php
         $html = <<< HTML
 <div class="body">
@@ -121,6 +123,14 @@ HTML;
     </form>
 </div>
 HTML;
+        return $html;
+    }
+
+    public function present()
+    {
+        $html = $this->presentHeader();
+        $html .= $this->presentBody();
+        $html .= $this->presentFooter();
         return $html;
     }
 

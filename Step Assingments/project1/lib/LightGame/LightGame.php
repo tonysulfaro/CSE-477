@@ -19,11 +19,13 @@ class LightGame
         $this->height = $data['height'];
     }
 
-    public function getPlayerName(){
+    public function getPlayerName()
+    {
         return $this->playerName;
     }
 
-    public function setPlayerName($name){
+    public function setPlayerName($name)
+    {
         $this->playerName = $name;
     }
 
