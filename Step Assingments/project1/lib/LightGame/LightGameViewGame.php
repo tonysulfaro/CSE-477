@@ -32,96 +32,6 @@ HTML;
         $html = <<< HTML
 <div class="body">
     <form class="game" method="post" action="game-post.php">
-        <table>
-            <tr>
-                <td>
-                    <button name="cell" value="1,1">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="1,2">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="1,3">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="1,4">&nbsp;</button>
-                </td>
-                <td class="wall completed">0</td>
-            </tr>
-            <tr>
-                <td class="wall">&nbsp;</td>
-                <td>
-                    <button name="cell" value="2,2">&nbsp;</button>
-                </td>
-                <td class="wall">1</td>
-                <td>
-                    <button name="cell" value="2,4">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="2,5">&nbsp;</button>
-                </td>
-            </tr>
-            <tr>
-                <td class="wall">2</td>
-                <td>
-                    <button name="cell" value="3,2">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="3,3">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="3,4">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="3,5">&nbsp;</button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button name="cell" value="4,1">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="4,2">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="4,3">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="4,4">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="4,5">&nbsp;</button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button name="cell" value="5,1">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="5,2">&nbsp;</button>
-                </td>
-                <td>
-                    <button name="cell" value="5,3">&nbsp;</button>
-                </td>
-                <td class="wall">&nbsp;</td>
-                <td>
-                    <button name="cell" value="5,5">&nbsp;</button>
-                </td>
-            </tr>
-        </table>
-        <div class="controls">
-            <p>
-                <button name="check">Check Solution</button>
-            </p>
-            <p>
-                <button name="solve">Solve</button>
-            <p>
-            <p>
-                <button name="clear">Clear</button>
-            </p>
-        </div>
-    </form>
-</div>
 HTML;
 
         $html .= '<table>';
@@ -139,6 +49,23 @@ HTML;
         }
         $html .= '</table>';
 
+
+
+        $html .= <<< HTML
+        <div class="controls">
+            <p>
+                <button name="check">Check Solution</button>
+            </p>
+            <p>
+                <button name="solve">Solve</button>
+            <p>
+            <p>
+                <button name="clear">Clear</button>
+            </p>
+        </div>
+    </form>
+</div>
+HTML;
         return $html;
     }
 

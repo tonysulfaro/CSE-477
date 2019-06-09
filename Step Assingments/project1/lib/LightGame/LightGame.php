@@ -34,6 +34,10 @@ class LightGame
         return $this->walls;
     }
 
+    public function setLight(){
+
+    }
+
     public function getPlayerName()
     {
         return $this->playerName;
