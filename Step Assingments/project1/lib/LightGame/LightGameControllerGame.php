@@ -11,6 +11,9 @@ class LightGameControllerGame
     {
         $this->game = $game;
 
+        if(isset($post['value'])){
+            $game->setLight($post['value']);
+        }
     }
 
     public function isReset()

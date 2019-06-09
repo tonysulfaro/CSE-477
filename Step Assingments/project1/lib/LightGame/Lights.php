@@ -6,10 +6,25 @@ namespace LightGame;
 
 class Lights
 {
-    public function __construct($REPLACE)
+    const LIGHT = 0;
+    const MARKER = 1;
+
+    public function __construct()
     {
-        $this->lights = $REPLACE;
+
     }
 
-    private $lights;
+    public function addLight($row, $col){
+        $this->lights[$row][$col] = self::LIGHT;
+    }
+
+    public function lightExists($row, $col){
+        return $this->lights[$row][$col];
+    }
+
+    public function getLights(){
+        return $this->lights;
+    }
+
+    private $lights = [[]];
 }
