@@ -123,19 +123,38 @@ HTML;
     </form>
 </div>
 HTML;
-        //testing row creation
-        $empty_cell = '<td><button name="cell" value="5,1">&nbsp;</button></td>';
-        $wall = '<td class="wall"></td>';
 
-        $html .= '<table><tr>';
-        //$this->lightgame->getWidth()
-        for ($i = 1; $i <= $this->lightgame->getWidth(); $i++) {
-            $html .= $empty_cell;
-            $html .= $wall;
+        $html .= '<table>';
+
+        // generate row
+        for ($row = 1; $row <= $this->lightgame->getHeight(); $row++) {
+
+            $html .= '<tr>';
+
+            // generate cell
+            for ($col = 1; $col <= $this->lightgame->getWidth(); $col++) {
+                $html .= $this->getCell($row, $col);
+            }
+            $html .= '</tr>';
         }
-        $html .= '</tr></table>';
+        $html .= '</table>';
 
         return $html;
+    }
+
+    public function getCell($row, $col){
+        // is it a wall
+        $wall_collection = $this->lightgame->getWalls();
+
+        foreach ($wall_collection as $wall_item){
+
+            if($wall_item['row']==$row && $wall_item['col']==$col){
+                $wall_value = $wall_item['value'];
+                return'<td class="wall">'.$wall_value.'</td>';
+            }
+        }
+
+        return '<td><button name="cell" value="'.$row.','.$col.'">&nbsp;</button></td>';;
     }
 
     public function present()

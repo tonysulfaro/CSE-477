@@ -30,6 +30,10 @@ class LightGame
         return $this->height;
     }
 
+    public function getWalls(){
+        return $this->walls;
+    }
+
     public function getPlayerName()
     {
         return $this->playerName;
@@ -49,6 +53,8 @@ class LightGame
         $this->title = $data['title'];
         $this->width = $data['width'];
         $this->height = $data['height'];
+
+        $this->walls = $data['walls'];
     }
 
     public function getFileName(){
@@ -57,6 +63,7 @@ class LightGame
 
     private $playerName = "TEST NAME";
     private $dir;
+    private $walls;
 
     private $lights;
     private $file;
