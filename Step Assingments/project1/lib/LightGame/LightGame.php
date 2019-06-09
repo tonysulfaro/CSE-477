@@ -6,7 +6,7 @@ namespace LightGame;
 
 class LightGame
 {
-    public function __construct(Lights $lights, $dir, $file)
+    public function __construct(Lights $lights, $dir, $file, $playerName)
     {
         $this->lights = $lights;
         $this->file = $file;
@@ -17,6 +17,17 @@ class LightGame
         $this->title = $data['title'];
         $this->width = $data['width'];
         $this->height = $data['height'];
+
+        $this->playerName = $playerName;
+        $this->dir = $dir;
+    }
+
+    public function getWidth(){
+        return $this->width;
+    }
+
+    public function getHeight(){
+        return $this->height;
     }
 
     public function getPlayerName()
@@ -29,5 +40,27 @@ class LightGame
         $this->playerName = $name;
     }
 
+    public function setGame($game){
+        $this->file = $game;
+
+        $json = file_get_contents(__DIR__.'/games/'. $this->file);
+        $data = json_decode($json, true);
+
+        $this->title = $data['title'];
+        $this->width = $data['width'];
+        $this->height = $data['height'];
+    }
+
+    public function getFileName(){
+        return $this->file;
+    }
+
     private $playerName = "TEST NAME";
+    private $dir;
+
+    private $lights;
+    private $file;
+    private $title;
+    private $width;
+    private $height;
 }

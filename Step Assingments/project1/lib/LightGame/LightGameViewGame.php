@@ -123,6 +123,18 @@ HTML;
     </form>
 </div>
 HTML;
+        //testing row creation
+        $empty_cell = '<td><button name="cell" value="5,1">&nbsp;</button></td>';
+        $wall = '<td class="wall"></td>';
+
+        $html .= '<table><tr>';
+        //$this->lightgame->getWidth()
+        for ($i = 1; $i <= $this->lightgame->getWidth(); $i++) {
+            $html .= $empty_cell;
+            $html .= $wall;
+        }
+        $html .= '</tr></table>';
+
         return $html;
     }
 
