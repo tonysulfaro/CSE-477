@@ -23,23 +23,28 @@ class LightGame
         $this->solution = $data['lights'];
     }
 
-    public function getWidth(){
+    public function getWidth()
+    {
         return $this->width;
     }
 
-    public function getHeight(){
+    public function getHeight()
+    {
         return $this->height;
     }
 
-    public function getWalls(){
+    public function getWalls()
+    {
         return $this->walls;
     }
 
-    public function getLights(){
+    public function getLights()
+    {
         return $this->lights;
     }
 
-    public function setLight($location){
+    public function setLight($location)
+    {
         $indicies = explode(",", $location);
 
         $row = $indicies[0];
@@ -58,10 +63,11 @@ class LightGame
         $this->playerName = $name;
     }
 
-    public function setGame($game){
+    public function setGame($game)
+    {
         $this->file = $game;
 
-        $json = file_get_contents(__DIR__.'/games/'. $this->file);
+        $json = file_get_contents(__DIR__ . '/games/' . $this->file);
         $data = json_decode($json, true);
 
         $this->title = $data['title'];
@@ -73,9 +79,44 @@ class LightGame
         $this->lights->buildSolution($this->solution);
     }
 
-    public function getFileName(){
+    public function getFileName()
+    {
         return $this->file;
     }
+
+    //options
+    public function enableLightedSquares()
+    {
+        $this->lightSquares = true;
+    }
+
+    public function disableLightedSquares()
+    {
+        $this->lightSquares = false;
+    }
+
+    public function enableCompletedSquares()
+    {
+
+        $this->completedSquares = true;
+    }
+
+    public function disableCompletedSquares()
+    {
+
+        $this->completedSquares = false;
+    }
+
+    public function isLightedSquares()
+    {
+        return $this->lightSquares;
+    }
+
+    public function isCompletedSquares()
+    {
+        return $this->completedSquares;
+    }
+
 
     private $playerName = "TEST NAME";
     private $dir;
@@ -87,4 +128,8 @@ class LightGame
     private $title;
     private $width;
     private $height;
+
+    //options
+    private $lightSquares = false;
+    private $completedSquares = false;
 }

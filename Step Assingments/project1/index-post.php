@@ -10,6 +10,4 @@ else{
     header("location: game.php");
 }
 
-
-
 exit;

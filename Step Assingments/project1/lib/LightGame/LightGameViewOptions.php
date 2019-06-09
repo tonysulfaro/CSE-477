@@ -6,6 +6,12 @@ namespace LightGame;
 
 class LightGameViewOptions extends LightGameViewBase
 {
+
+    public function __construct(LightGame $lightGame)
+    {
+        $this->game = $lightGame;
+    }
+
     public function presentHeader()
     {
         $html = <<< HTML
@@ -22,10 +28,25 @@ HTML;
     {
         $html = <<< HTML
 <div class="body">
-    <form class="options" method="post" action="post/options-post.php">
+    <form class="options" method="post" action="options-post.php">
         <div class="controls">
-            <p class="checkbox"><label><input type="checkbox" name="lighted"> Show lighted squares</label></p>
-            <p class="checkbox"><label><input type="checkbox" name="completed"> Show completed clues</label></p>
+        
+HTML;
+        // add if checked
+        if ($this->game->isLightedSquares() & $this->game->isCompletedSquares()) { // both checked
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="lighted" checked> Show lighted squares</label></p>';
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="completed" checked> Show completed clues</label></p>';
+        } elseif ($this->game->isLightedSquares() & !$this->game->isCompletedSquares()) { // only lights checked
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="lighted" checked> Show lighted squares</label></p>';
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="completed"> Show completed clues</label></p>';
+        } else if (!$this->game->isLightedSquares() & $this->game->isCompletedSquares()) { // only completed checked
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="lighted"> Show lighted squares</label></p>';
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="completed" checked> Show completed clues</label></p>';
+        } else { // none checked
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="lighted"> Show lighted squares</label></p>';
+            $html .= '<p class="checkbox"><label><input type="checkbox" name="completed"> Show completed clues</label></p>';
+        }
+        $html .= <<< HTML
             <p>
                 <button type="submit" name="submit">Submit</button>
             </p>
@@ -33,6 +54,7 @@ HTML;
     </form>
 </div>
 HTML;
+
         return $html;
     }
 
@@ -43,4 +65,6 @@ HTML;
         $html .= $this->presentFooter();
         return $html;
     }
+
+    private $game;
 }

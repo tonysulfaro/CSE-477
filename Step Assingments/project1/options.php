@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/lib/game.inc.php';
-$view = new LightGame\LightGameViewOptions();
+$view = new LightGame\LightGameViewOptions($lightgame);
 ?>
 <!doctype html>
 <html lang="en">
