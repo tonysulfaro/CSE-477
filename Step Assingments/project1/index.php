@@ -14,9 +14,13 @@ $view = new \LightGame\LightGameViewWelcome($lightgame);
 <body>
 
 <?php
-echo $view->presentHeader();
-echo $view->presentBody();
-echo $view->presentFooter();
+
+if ($lightgame->getPlayerName() == ""){
+    echo $view->presentNameError();
+}
+else{
+    echo $view->present();
+}
 ?>
 
 </body>

@@ -20,6 +20,7 @@ class LightGame
 
         $this->playerName = $playerName;
         $this->dir = $dir;
+        $this->solution = $data['lights'];
     }
 
     public function getWidth(){
@@ -35,7 +36,7 @@ class LightGame
     }
 
     public function getLights(){
-        return $this->lights->getLights();
+        return $this->lights;
     }
 
     public function setLight($location){
@@ -68,6 +69,8 @@ class LightGame
         $this->height = $data['height'];
 
         $this->walls = $data['walls'];
+        $this->solution = $data['lights'];
+        $this->lights->buildSolution($this->solution);
     }
 
     public function getFileName(){
@@ -77,6 +80,7 @@ class LightGame
     private $playerName = "TEST NAME";
     private $dir;
     private $walls;
+    private $solution;
 
     private $lights;
     private $file;

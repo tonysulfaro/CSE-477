@@ -3,9 +3,13 @@ require __DIR__ . '/lib/game.inc.php';
 
 $controller = new LightGame\LightGameControllerWelcome($lightgame, $_POST);
 
-if($controller->isReset()){
-    unset($_SESSION[LIGHTS_SESSION]);
+if($controller->isError()){
+    header("location: index.php");
+}
+else{
+    header("location: game.php");
 }
 
-header("location: game.php");
+
+
 exit;

@@ -5,8 +5,7 @@ session_start();
 define("LIGHTS_SESSION", 'lights');
 
 //construct lights
-$lights = new \LightGame\Lights(1);
-
+$lights = new \LightGame\Lights();
 
 // create new session if not before
 if (!isset($_SESSION[LIGHTS_SESSION])) {

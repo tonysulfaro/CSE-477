@@ -72,7 +72,6 @@ HTML;
     public function getCell($row, $col){
         // is it a wall
         $wall_collection = $this->lightgame->getWalls();
-        $user_lights = $this->lightgame->getLights();
 
         foreach ($wall_collection as $wall_item){
 
@@ -82,7 +81,7 @@ HTML;
             }
         }
 
-        if(in_array($row, $user_lights) && in_array($col, $user_lights[$row])){
+        if($this->lightgame->getLights()->lightExists($row,$col)){
             return '<td class="light"><button name="cell" value="'.$row.','.$col.'">&nbsp;</button></td>';
         }
         return '<td><button name="cell" value="'.$row.','.$col.'">&nbsp;</button></td>';

@@ -11,17 +11,20 @@ class LightGameControllerWelcome
         $this->game = $game;
         if (isset($post['name'])) {
             $game->setPlayerName($post['name']);
+            if ($post['name'] != "") {
+                $this->isError = false;
+            }
         }
-        if(isset($post['game'])){
+        if (isset($post['game'])) {
             $game->setGame($post['game']);
         }
     }
 
-    public function isReset()
+    public function isError()
     {
-        return $this->isReset;
+        return $this->isError;
     }
 
-    private $isReset = false;
+    private $isError = true;
     private $game;
 }

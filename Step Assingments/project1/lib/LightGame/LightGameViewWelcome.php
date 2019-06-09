@@ -48,6 +48,33 @@ HTML;
         return $html;
     }
 
+    public function presentBodyError(){
+
+        $html = <<< HTML
+        <div class="body">
+    <form class="newgame" method="post" action="index-post.php">
+        <div class="controls">
+            <p class="name"><label for="name">Name </label><br><input type="text" id="name" name="name">
+            </p>
+            <p><select name="game">
+                    <option value="10x10easy-1.json">10x10 Easy</option>
+                    <option value="5x5easy-1.json">5x5 Easy</option>
+                    <option value="5x5hard-1.json">5x5 Hard</option>
+                    <option value="7x7easy-1.json">7x7 Easy</option>
+                    <option value="7x7medium-1.json">7x7 Medium</option>
+                </select></p>
+            <p>
+                <button>Start or Continue Game</button>
+            </p>
+            <p class="message">You must enter a name!</p>
+        </div>
+    </form>
+</div>
+HTML;
+        return $html;
+
+    }
+
     public function present()
     {
         $html = $this->presentHeader();
@@ -56,5 +83,24 @@ HTML;
         return $html;
     }
 
+    public function presentNameError(){
+        $html = $this->presentHeader();
+        $html .= $this->presentBodyError();
+
+        //error message
+
+        $html .= $this->presentFooter();
+        return $html;
+    }
+
+    public function isError(){
+        return $this->isError;
+    }
+
+    public function setError($bool){
+        $this->isError = $bool;
+    }
+
     private $lightGame;
+    private $isError = true;
 }
