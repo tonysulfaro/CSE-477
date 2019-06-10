@@ -47,6 +47,15 @@ class Lights
         return false;
     }
 
+    public function isCorrectPosition($row, $col){
+        if (array_key_exists($row, $this->solution)) {
+            if (array_key_exists($col, $this->solution[$row])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public function getLightValue($row, $col){
         if($this->lightExists($row, $col)){
             return $this->lights[$row][$col];

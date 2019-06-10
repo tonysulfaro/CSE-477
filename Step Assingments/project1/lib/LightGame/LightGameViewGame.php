@@ -108,15 +108,30 @@ HTML;
 
         if ($this->lightgame->getLights()->lightExists($row, $col)) {
             $light_value = $this->lightgame->getLights()->getLightValue($row, $col);
+
+            //there is a light here
             if ($light_value == 1) {
+
+                // check enabled
+                if($this->lightgame->getCheckStatus() & !$this->lightgame->getLights()->isCorrectPosition($row, $col)){
+                    return '<td class="light lighted wrong"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
+                }
+
+                // return yellow background
+                if($this->lightgame->isLightedSquares()){
+                    return '<td class="light lighted"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
+                }
+
+                // return white background
                 return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
             } elseif ($light_value == 2) {
                 return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
             }
         }
         if($this->lightgame->getSolvedStatus()){
-            return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
+            return '<td class="unshaded lighted"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
         }
+
         return '<td><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
     }
 
