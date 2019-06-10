@@ -43,14 +43,9 @@ class LightGame
         return $this->lights;
     }
 
-    public function setLight($location)
+    public function getLightValue($row, $col)
     {
-        $indicies = explode(",", $location);
-
-        $row = $indicies[0];
-        $col = $indicies[1];
-
-        $this->lights->addLight($row, $col);
+        return $this->lights[$row][$col];
     }
 
     public function getPlayerName()

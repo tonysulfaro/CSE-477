@@ -14,37 +14,42 @@ class Lights
 
     }
 
-    public function solutionCorrect(){
+    public function solutionCorrect()
+    {
         return $this->lights == $this->solution;
     }
 
-    public function buildSolution($data){
-        foreach ($data as $light){
+    public function buildSolution($data)
+    {
+        foreach ($data as $light) {
             $row = $light['row'];
             $col = $light['col'];
             $this->solution[$row][$col] = 0;
         }
     }
 
-    public function addLight($row, $col){
-        $this->lights[$row][$col] = self::LIGHT;
+    public function addLight($row, $col)
+    {
+        if ($this->lightExists($row, $col)) {
+            $this->lights[$row][$col]++;
+        } else {
+            $this->lights[$row][$col] = 0;
+        }
     }
 
-    public function lightExists($row, $col){
+    public function lightExists($row, $col)
+    {
 
-        if(array_key_exists($row, $this->lights)){
-            if(array_key_exists($col, $this->lights[$row])){
-                if($this->lights[$row][$col] != 0){
-                   $this->lights[$row][$col] = 0;
-                }
-                $this->lights[$row][$col] ++;
+        if (array_key_exists($row, $this->lights)) {
+            if (array_key_exists($col, $this->lights[$row])) {
                 return true;
             }
         }
         return false;
     }
 
-    public function getLights(){
+    public function getLights()
+    {
         return $this->lights;
     }
 

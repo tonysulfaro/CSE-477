@@ -11,8 +11,15 @@ class LightGameControllerGame
     {
         $this->game = $game;
 
-        if(isset($post['value'])){
-            $game->setLight($post['value']);
+        if (isset($post['cell'])) {
+            $location = $post['cell'];
+
+            $indicies = explode(",", $location);
+
+            $row = $indicies[0];
+            $col = $indicies[1];
+
+            $game->getLights()->addLight($row, $col);
         }
     }
 
