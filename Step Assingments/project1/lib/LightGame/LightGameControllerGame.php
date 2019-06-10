@@ -26,6 +26,7 @@ class LightGameControllerGame
         //check solution
         if (isset($post['check'])) {
             $game->enableCheckSolution();
+            $game->checkSolution();
         }
         //solve
         if (isset($post['solve'])) {
@@ -38,14 +39,14 @@ class LightGameControllerGame
         }
 
         if (isset($post['yes'])) {
-            if($game->getCheckStatus()){
-                $game->checkSolution();
-            }
+
             if($game->getSolveStatus()){
                 $game->solveBoard();
+                $game->setSolvedStatus(true);
             }
             if($game->getClearStatus()){
                 $game->getLights()->clearLights();
+                $game->setSolvedStatus(false);
             }
             $game ->disableOptions();
         }

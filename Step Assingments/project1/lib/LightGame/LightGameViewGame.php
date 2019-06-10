@@ -81,9 +81,7 @@ HTML;
     </form>
 </div>
 HTML;
-        if ($this->lightgame->getCheckStatus()) {
-            $html .= $confirmCheck;
-        } else if ($this->lightgame->getSolveStatus()) {
+        if ($this->lightgame->getSolveStatus()) {
             $html .= $confirmSolve;
         } else if ($this->lightgame->getClearStatus()) {
 
@@ -109,13 +107,15 @@ HTML;
         }
 
         if ($this->lightgame->getLights()->lightExists($row, $col)) {
-            $light_value = $this->lightgame->getLights()->getLightValue($row,$col);
-            if($light_value == 1){
+            $light_value = $this->lightgame->getLights()->getLightValue($row, $col);
+            if ($light_value == 1) {
                 return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
-            }
-            elseif ($light_value == 2){
+            } elseif ($light_value == 2) {
                 return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
             }
+        }
+        if($this->lightgame->getSolvedStatus()){
+            return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
         }
         return '<td><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
     }

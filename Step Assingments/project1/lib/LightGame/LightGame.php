@@ -154,6 +154,14 @@ class LightGame
         $this->checked = true;
     }
 
+    public function setSolvedStatus($bool){
+        $this->solved = $bool;
+    }
+
+    public function getSolvedStatus(){
+        return $this->solved;
+    }
+
 
     private $playerName = "TEST NAME";
     private $dir;
@@ -177,4 +185,5 @@ class LightGame
 
     //after invoke
     private $checked = false;
+    private $solved = false;
 }

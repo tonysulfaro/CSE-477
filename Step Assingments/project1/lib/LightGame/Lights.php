@@ -22,7 +22,7 @@ class Lights
         foreach ($data as $light) {
             $row = $light['row'];
             $col = $light['col'];
-            $this->solution[$row][$col] = 0;
+            $this->solution[$row][$col] = 1;
         }
     }
 
@@ -32,7 +32,7 @@ class Lights
             $this->lights[$row][$col]++;
             $this->lights[$row][$col] = $this->lights[$row][$col] % 3;
         } else {
-            $this->lights[$row][$col] = 0;
+            $this->lights[$row][$col] = 1;
         }
     }
 
