@@ -109,7 +109,13 @@ HTML;
         }
 
         if ($this->lightgame->getLights()->lightExists($row, $col)) {
-            return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
+            $light_value = $this->lightgame->getLights()->getLightValue($row,$col);
+            if($light_value == 1){
+                return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
+            }
+            elseif ($light_value == 2){
+                return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
+            }
         }
         return '<td><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
     }

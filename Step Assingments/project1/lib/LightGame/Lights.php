@@ -6,8 +6,6 @@ namespace LightGame;
 
 class Lights
 {
-    const LIGHT = 0;
-    const MARKER = 1;
 
     public function __construct()
     {
@@ -32,6 +30,7 @@ class Lights
     {
         if ($this->lightExists($row, $col)) {
             $this->lights[$row][$col]++;
+            $this->lights[$row][$col] = $this->lights[$row][$col] % 3;
         } else {
             $this->lights[$row][$col] = 0;
         }
@@ -46,6 +45,13 @@ class Lights
             }
         }
         return false;
+    }
+
+    public function getLightValue($row, $col){
+        if($this->lightExists($row, $col)){
+            return $this->lights[$row][$col];
+        }
+        return -1;
     }
 
     public function getLights()

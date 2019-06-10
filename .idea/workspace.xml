@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" afterDir="false" />
     </list>
@@ -36,19 +34,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="116" column="100" selection-start-line="116" selection-start-column="100" selection-end-line="116" selection-end-column="100" />
+              <folding>
+                <element signature="e#58#64#1" expanded="true" />
+                <element signature="e#44#50#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,21 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="395">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-              <folding>
-                <element signature="e#58#64#1" expanded="true" />
-                <element signature="e#44#50#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="388">
+              <caret line="157" column="1" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -91,6 +80,7 @@
       <find>border</find>
       <find>N</find>
       <find>indent</find>
+      <find>light</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/guessing.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/tests/test/GuessingTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/lib/guesssing.inc.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step5/lib/Guessing/GuessingView.php" />
@@ -146,10 +135,11 @@
         <option value="$PROJECT_DIR$/Step Assingments/project1/options-post.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewOptions.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/game.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/game.css" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" />
       </list>
     </option>
   </component>
@@ -211,30 +201,6 @@
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="LightGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="LightGame" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +288,7 @@
       <workItem from="1558411599932" duration="66780000" />
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
-      <workItem from="1560019414762" duration="32131000" />
+      <workItem from="1560019414762" duration="34285000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -492,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560127318496</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="game functions implemented">
+      <created>1560129534936</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560129534936</updated>
+    </task>
+    <task id="LOCAL-00026" summary="light css tweaked to show light">
+      <created>1560130380455</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560130380455</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,7 +487,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114846000" />
+    <option name="totallyTimeSpent" value="117000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -563,7 +543,9 @@
     <MESSAGE value="error handling for welcome screen added" />
     <MESSAGE value="options controller, post, implemented" />
     <MESSAGE value="light post working, was not reading in correct post value" />
-    <option name="LAST_COMMIT_MESSAGE" value="light post working, was not reading in correct post value" />
+    <MESSAGE value="game functions implemented" />
+    <MESSAGE value="light css tweaked to show light" />
+    <option name="LAST_COMMIT_MESSAGE" value="light css tweaked to show light" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step6/php-sql-execute/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -750,27 +725,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/games/5x5easy-1.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/light.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/completed.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/example1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/initial.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/lightemup1-800.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/lightemup-800.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/shaded.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step7/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -898,35 +852,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-          <folding>
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="e#44#50#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="431">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/shaded.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/initial.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/example1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/completed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/lightemup-800.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/lightemup1-800.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/images/light.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="395">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/game.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        <state relative-caret-position="388">
+          <caret line="157" column="1" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php">
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="259">
+          <caret line="116" column="100" selection-start-line="116" selection-start-column="100" selection-end-line="116" selection-end-column="100" />
+          <folding>
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="e#44#50#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
