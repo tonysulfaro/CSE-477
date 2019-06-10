@@ -112,7 +112,7 @@ HTML;
             //there is a light here
             if ($light_value == 1) {
 
-                // check enabled
+                // check enabled and is wrong placement
                 if($this->lightgame->getCheckStatus() & !$this->lightgame->getLights()->isCorrectPosition($row, $col)){
                     return '<td class="light lighted wrong"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
                 }
