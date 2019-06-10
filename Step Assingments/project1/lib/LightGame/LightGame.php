@@ -112,6 +112,48 @@ class LightGame
         return $this->completedSquares;
     }
 
+    // action items
+    public function enableCheckSolution()
+    {
+        $this->checkSolution = true;
+    }
+
+    public function enableSolveBoard()
+    {
+        $this->solveBoard = true;
+    }
+
+    public function solveBoard(){
+        $this->lights->solve();
+    }
+
+    public function enableClearBoard()
+    {
+        $this->clearBoard = true;
+    }
+
+    public function disableOptions(){
+        $this->checkSolution = false;
+        $this->solveBoard = false;
+        $this->clearBoard = false;
+    }
+
+    public function getCheckStatus(){
+        return $this->checkSolution;
+    }
+
+    public function getSolveStatus(){
+        return $this->solveBoard;
+    }
+
+    public function getClearStatus(){
+        return $this->clearBoard;
+    }
+
+    public function checkSolution(){
+        $this->checked = true;
+    }
+
 
     private $playerName = "TEST NAME";
     private $dir;
@@ -127,4 +169,12 @@ class LightGame
     //options
     private $lightSquares = false;
     private $completedSquares = false;
+
+    //action values
+    private $checkSolution = false;
+    private $solveBoard = false;
+    private $clearBoard = false;
+
+    //after invoke
+    private $checked = false;
 }

@@ -28,6 +28,22 @@ HTML;
 
     public function presentBody()
     {
+        $confirmCheck = <<< HTML
+        <div class="controls"><p><button name="yes">Yes</button> <button name="no">No</button></p>
+<p class="message">Are you sure you want to check?</p></div>
+HTML;
+
+        $confirmClear = <<< HTML
+        <div class="controls"><p><button name="yes">Yes</button> <button name="no">No</button></p>
+<p class="message">Are you sure you want to clear?</p></div>
+HTML;
+
+        $confirmSolve = <<< HTML
+        <div class="controls"><p><button name="yes">Yes</button> <button name="no">No</button></p>
+<p class="message">Are you sure you want to solve?</p></div>
+HTML;
+
+
         // TODO change form action to post/game-post.php
         $html = <<< HTML
 <div class="body">
@@ -50,8 +66,7 @@ HTML;
         $html .= '</table>';
 
 
-
-        $html .= <<< HTML
+        $mainControls = <<< HTML
         <div class="controls">
             <p>
                 <button name="check">Check Solution</button>
@@ -66,25 +81,37 @@ HTML;
     </form>
 </div>
 HTML;
+        if ($this->lightgame->getCheckStatus()) {
+            $html .= $confirmCheck;
+        } else if ($this->lightgame->getSolveStatus()) {
+            $html .= $confirmSolve;
+        } else if ($this->lightgame->getClearStatus()) {
+
+            $html .= $confirmClear;
+        } else {
+            $html .= $mainControls;
+        }
+
         return $html;
     }
 
-    public function getCell($row, $col){
+    public function getCell($row, $col)
+    {
         // is it a wall
         $wall_collection = $this->lightgame->getWalls();
 
-        foreach ($wall_collection as $wall_item){
+        foreach ($wall_collection as $wall_item) {
 
-            if($wall_item['row']==$row && $wall_item['col']==$col){
+            if ($wall_item['row'] == $row && $wall_item['col'] == $col) {
                 $wall_value = $wall_item['value'];
-                return'<td class="wall">'.$wall_value.'</td>';
+                return '<td class="wall">' . $wall_value . '</td>';
             }
         }
 
-        if($this->lightgame->getLights()->lightExists($row,$col)){
-            return '<td class="light"><button name="cell" value="'.$row.','.$col.'">&nbsp;</button></td>';
+        if ($this->lightgame->getLights()->lightExists($row, $col)) {
+            return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
         }
-        return '<td><button name="cell" value="'.$row.','.$col.'">&nbsp;</button></td>';
+        return '<td><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
     }
 
     public function present()

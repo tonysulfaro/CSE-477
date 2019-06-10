@@ -53,6 +53,14 @@ class Lights
         return $this->lights;
     }
 
+    public function clearLights(){
+        $this->lights = [[]];
+    }
+
+    public function solve(){
+        $this->lights = $this->solution;
+    }
+
     private $lights = [[]];
     private $solution = [[]];
 }
