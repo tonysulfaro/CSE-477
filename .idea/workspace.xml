@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="119" column="43" lean-forward="true" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+            <state relative-caret-position="314">
+              <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
               <folding>
                 <element signature="e#66#72#1" expanded="true" />
                 <element signature="e#66#72#1" expanded="true" />
@@ -51,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
+            <state relative-caret-position="-696">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -60,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="25">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,8 +149,8 @@
         <option value="$PROJECT_DIR$/Step Assingments/project1/game.css" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameControllerGame.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php" />
       </list>
     </option>
   </component>
@@ -291,7 +299,7 @@
       <workItem from="1558411599932" duration="66780000" />
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
-      <workItem from="1560019414762" duration="36827000" />
+      <workItem from="1560019414762" duration="39071000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -489,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560133268829</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="checks if lights are correct">
+      <created>1560134443675</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560134443675</updated>
+    </task>
+    <task id="LOCAL-00030" summary="checks if lights are correct">
+      <created>1560137625798</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1560137625798</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -504,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119542000" />
+    <option name="totallyTimeSpent" value="121786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -537,7 +559,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tweaked css step5 final" />
     <MESSAGE value="tweaked css after using view to generate page" />
     <MESSAGE value="I hate this" />
     <MESSAGE value="things pass now" />
@@ -562,7 +583,8 @@
     <MESSAGE value="light css tweaked to show light" />
     <MESSAGE value="proper cycling on board" />
     <MESSAGE value="solved shows markers" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved shows markers" />
+    <MESSAGE value="checks if lights are correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="checks if lights are correct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/index-post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -904,24 +919,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/game.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/Lights.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="25">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
+        <state relative-caret-position="-696">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project1/lib/LightGame/LightGameViewGame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="119" column="43" lean-forward="true" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+        <state relative-caret-position="314">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
           <folding>
             <element signature="e#66#72#1" expanded="true" />
             <element signature="e#66#72#1" expanded="true" />

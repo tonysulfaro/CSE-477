@@ -4,6 +4,8 @@
 namespace LightGame;
 
 
+use phpDocumentor\Reflection\Types\Array_;
+
 class Lights
 {
 
@@ -47,7 +49,8 @@ class Lights
         return false;
     }
 
-    public function isCorrectPosition($row, $col){
+    public function isCorrectPosition($row, $col)
+    {
         if (array_key_exists($row, $this->solution)) {
             if (array_key_exists($col, $this->solution[$row])) {
                 return true;
@@ -56,8 +59,9 @@ class Lights
         return false;
     }
 
-    public function getLightValue($row, $col){
-        if($this->lightExists($row, $col)){
+    public function getLightValue($row, $col)
+    {
+        if ($this->lightExists($row, $col)) {
             return $this->lights[$row][$col];
         }
         return -1;
@@ -68,14 +72,65 @@ class Lights
         return $this->lights;
     }
 
-    public function clearLights(){
+    public function clearLights()
+    {
         $this->lights = [[]];
     }
 
-    public function solve(){
+    public function solve()
+    {
         $this->lights = $this->solution;
+    }
+
+    //new data structure to store board data
+    public function initializeBoard($width, $height, $walls)
+    {
+
+        // TODO move this to constructor eventually
+        $this->walls = $walls;
+        $this->height = $height;
+        $this->width = $width;
+
+        //create empty board
+        $this->board = Array($height);
+        for ($i = 0; $i < $height; $i++) {
+            $this->board[$i] = Array($width);
+
+            //populate cols in row
+            for ($j = 0; $j < $width; $j++) {
+                $this->board[$i][$j] = 0; // 0 is a white space
+            }
+        }
+
+        // add walls
+        foreach ($walls as $wall) {
+            $row = $wall['row'];
+            $col = $wall['col'];
+            $this->board[$row][$col] = -1;
+        }
+    }
+
+    public function addLightBoard($row, $col)
+    {
+        $this->board[$row][$col] = ($this->board[$row][$col]++) % 3;
+    }
+
+    public function solveBoard()
+    {
+        $this->initializeBoard($this->width, $this->height, $this->walls);
+        foreach ($this->data as $light) {
+            $row = $light['row'];
+            $col = $light['col'];
+            $this->board[$row][$col] = 1;
+        }
     }
 
     private $lights = [[]];
     private $solution = [[]];
+
+    private $board = [[]];
+    private $width;
+    private $height;
+    private $walls;
+    private $data; //light locations
 }
