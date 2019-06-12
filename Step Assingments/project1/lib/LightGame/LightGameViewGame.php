@@ -43,6 +43,10 @@ HTML;
 <p class="message">Are you sure you want to solve?</p></div>
 HTML;
 
+        $solvedClear = <<< HTML
+        <div class="controls"><p class="message">Solution is correct!</p>
+<p><button name="clear">Clear</button></p></div>
+HTML;
 
         // TODO change form action to post/game-post.php
         $html = <<< HTML
@@ -83,9 +87,12 @@ HTML;
 HTML;
         if ($this->lightgame->getSolveStatus()) {
             $html .= $confirmSolve;
+        } else if ($this->lightgame->getSolveStatus()) {
+            $html .= $solvedClear;
         } else if ($this->lightgame->getClearStatus()) {
-
             $html .= $confirmClear;
+        } else if ($this->lightgame->getSolvedStatus()) {
+            $html .= $solvedClear;
         } else {
             $html .= $mainControls;
         }
@@ -113,24 +120,24 @@ HTML;
             if ($light_value == 1) {
 
                 // check enabled and is wrong placement
-                if($this->lightgame->getCheckStatus() & !$this->lightgame->getLights()->isCorrectPosition($row, $col)){
+                if ($this->lightgame->getCheckStatus() & !$this->lightgame->getLights()->isCorrectPosition($row, $col)) {
                     return '<td class="light lighted wrong"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
                 }
 
                 // return yellow background
-                if($this->lightgame->isLightedSquares() | $this->lightgame->getSolvedStatus()){
+                if ($this->lightgame->isLightedSquares() | $this->lightgame->getSolvedStatus()) {
                     return '<td class="light lighted"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
                 }
 
                 // return white background
                 return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
 
-            // wall here
+                // wall here
             } elseif ($light_value == 2) {
                 return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
             }
         }
-        if($this->lightgame->getSolvedStatus()){
+        if ($this->lightgame->getSolvedStatus()) {
             return '<td class="unshaded lighted"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
         }
 

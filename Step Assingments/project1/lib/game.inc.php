@@ -9,7 +9,12 @@ $lights = new \LightGame\Lights();
 
 // create new session if not before
 if (!isset($_SESSION[LIGHTS_SESSION])) {
-    $_SESSION[LIGHTS_SESSION] = new LightGame\LightGame($lights, '/games/', $_POST['game'], $_POST['name']);
+    try{
+        $_SESSION[LIGHTS_SESSION] = new LightGame\LightGame($lights, '/games/', $_POST['game'], $_POST['name']);
+    }
+    catch (Exception $e){
+
+    }
 }
 
 $lightgame = $_SESSION[LIGHTS_SESSION];
