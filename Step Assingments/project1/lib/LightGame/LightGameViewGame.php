@@ -118,12 +118,14 @@ HTML;
                 }
 
                 // return yellow background
-                if($this->lightgame->isLightedSquares()){
+                if($this->lightgame->isLightedSquares() | $this->lightgame->getSolvedStatus()){
                     return '<td class="light lighted"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
                 }
 
                 // return white background
                 return '<td class="light"><button name="cell" value="' . $row . ',' . $col . '">&nbsp;</button></td>';
+
+            // wall here
             } elseif ($light_value == 2) {
                 return '<td class="unshaded"><button name="cell" value="' . $row . ',' . $col . '">•</button></td>';
             }
