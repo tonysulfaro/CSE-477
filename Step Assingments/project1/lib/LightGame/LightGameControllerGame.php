@@ -21,6 +21,7 @@ class LightGameControllerGame
             $col = $indicies[1];
 
             $game->getLights()->addLight($row, $col);
+            $game->disableCheckSolution();
         }
 
         //check solution

@@ -117,6 +117,9 @@ class LightGame
     {
         $this->checkSolution = true;
     }
+    public function disableCheckSolution(){
+        $this->checkSolution = false;
+    }
 
     public function enableSolveBoard()
     {
