@@ -1,4 +1,5 @@
 <?php
+$open = true;
 require 'lib/site.inc.php';
 $view = new Felis\View();
 $view->setTitle('Felis Investigations');

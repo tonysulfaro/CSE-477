@@ -1,53 +1,35 @@
+<?php
+$open = true;
+require 'lib/site.inc.php';
+$view = new Felis\HomeView();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Felis Investigations</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="lib/felis.css">
+    <?php echo $view->head(); ?>
 </head>
 
 <body>
 <div class="mainpage">
-<nav>
-	<ul class="left">
-		<li><a href="./">The Felis Agency</a></li>
-	</ul>
-
-	<ul class="right">
-		<li><a href="login.php">Log in</a></li>
-	</ul>
-</nav>
-
-<header class="main">
-	<h1><img src="images/comfortable.png" alt="Felis Mascot"> Felis Investigations
-		<img src="images/comfortable.png" alt="Felis Mascot"></h1>
-	<p>Welcome to Felis Investigations!</p>
-	<p>Domestic, divorce, and carousing investigations conducted without publicity. People and cats shadowed
-		and investigated by expert inspectors. Katnapped kittons located. Missing cats and witnesses located.
-		Accidents, furniture damage, losses by theft, blackmail, and murder investigations.</p>
-	<p><a href="">Learn more</a></p>
-</header>
+    <?php echo $view->header(); ?>
 
 <section class="testimonials">
 	<h2>TESTIMONIALS</h2>
 	<div class="left">
-	<blockquote>
-		<p>Found out that fluffy was fluffing someone else on the side. Found me a new top cat.</p>
-		<p><cite>Anonymous</cite></p>
-	</blockquote>
-	<blockquote>
-		<p>Thanks for ensuring me that Garfield was only interested in Lasagna and not chasing after
-			that mangy cat that lives behind the Italian restaurant.</p>
-		<cite>Jon</cite></blockquote>
-	</div>
-	<div class="right">
-	<blockquote>
-		<p>They told me nobody could beat the Hidden Paw, but you brought Macavity to justice. Thank you so much.</p>
-		<cite>Anonymous</cite></blockquote>
-	<blockquote>
-		<p>Thank you so much for finding grandma Grizabella. We thought we would never see her again.</p>
-		<cite>Valerie Eliot</cite></blockquote>
+        <?php
+        $view->addTestimonial('Found out that fluffy was fluffing someone else on the side.
+Found me a new top cat.', 'Anonymous');
+        $view->addTestimonial('Thanks for ensuring me that Garfield was only interested in
+Lasagna and not chasing after that mangy cat that lives behind the Italian
+restaurant.', 'Jon');
+        $view->addTestimonial('They told me nobody could beat the Hidden Paw, but you
+brought Macavity to justice. Thank you so much.', 'Anonymous');
+        $view->addTestimonial('Thank you so much for finding grandma Grizabella. We thought
+we would never see her again.', 'Valerie Eliot');
+
+        echo $view->testimonials();
+        ?>
 	</div>
 </section>
 
@@ -73,9 +55,7 @@
 	</fieldset>
 </form>
 
-<footer>
-	<p>Copyright © 2019 Felis Investigations, Inc. All rights reserved.</p>
-</footer>
+    <?php echo $view->footer(); ?>
 
 </div>
 
