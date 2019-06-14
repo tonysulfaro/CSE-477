@@ -1,6 +1,7 @@
 <?php
 require 'lib/site.inc.php';
 $view = new Felis\StaffView();
+$view->addLink('./', 'Log Out');
 if(!$view->protect($site, $user)) {
     header("location: " . $view->getProtectRedirect());
     exit;

@@ -85,11 +85,15 @@ set email = ?, name = ?, phone = ?, address = ?, notes = ?, role = ?
 where id = ?
 SQL;
 
-        $pdo = $this->pdo();
-
-
         try {
+            $pdo = $this->pdo();
             $statement = $pdo->prepare($sql);
+
+            //check row count
+            if ($statement->rowCount() === 0) {
+                return false;
+            }
+
             $ret = $statement->execute(array($user->getEmail(), $user->getName(), $user->getPhone(), $user->getAddress(), $user->getNotes(), $user_id));
             return $ret;
         } catch (\PDOException $e) {

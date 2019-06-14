@@ -40,7 +40,7 @@ class Site
     }
 
     public function setRoot($root){
-        $this->$root = $root;
+        $this->root = $root;
     }
 
     //tablePrefix

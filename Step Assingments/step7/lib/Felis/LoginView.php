@@ -8,6 +8,8 @@ class LoginView extends View
 {
     public function __construct($session, $get)
     {
+        $this->session = $session;
+        $this->get = $get;
     }
 
     public function presentForm() {
@@ -25,7 +27,7 @@ class LoginView extends View
         </p>
 HTML;
 
-        if(isset($get['e'])){
+        if(isset($this->get['e'])){
             $html .= '<p class="msg">Invalid login credentials</p>';
         }
 
@@ -42,4 +44,6 @@ HTML;
         return $html;
     }
 
+    private $session;
+    private $get;
 }
