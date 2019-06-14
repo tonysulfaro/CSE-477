@@ -45,6 +45,10 @@ class User
         return $this->email;
     }
 
+    public function getName(){
+        return $this->name;
+    }
+
     public function getPhone(){
         return $this->phone;
     }
@@ -63,6 +67,30 @@ class User
 
     public function getRole(){
         return $this->role;
+    }
+
+    public function setEmail($email){
+        $this->email = $email;
+    }
+
+    public function setName($name){
+        $this->name = $name;
+    }
+
+    public function setPhone($phone){
+        $this->phone = $phone;
+    }
+
+    public function setAddress($addr){
+        $this->address = $addr;
+    }
+
+    public function setNotes($notes){
+        $this->notes = $notes;
+    }
+
+    public function setRole($role){
+        $this->role = $role;
     }
 
     private $id;		// The internal ID for the user

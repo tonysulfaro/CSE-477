@@ -3,7 +3,18 @@
 
 class LoginControllerTest extends \PHPUnit\Framework\TestCase
 {
+    private static $site;
+
+    public static function setUpBeforeClass() {
+        self::$site = new Felis\Site();
+        $localize  = require 'localize.inc.php';
+        if(is_callable($localize)) {
+            $localize(self::$site);
+        }
+    }
+
     public function test_construct() {
+
         $session = array();	// Fake session
         $root = self::$site->getRoot();
 

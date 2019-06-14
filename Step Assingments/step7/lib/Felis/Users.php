@@ -62,4 +62,41 @@ SQL;
         return new User($statement->fetch(\PDO::FETCH_ASSOC));
     }
 
+    /**
+     * Modify a user record based on the contents of a User object
+     * @param User $user User object for object with modified data
+     * @return true if successful, false if failed or user does not exist
+     */
+    public function update(User $user)
+    {
+
+        // see if user exists
+        $user_exists = $this->get($user->getId());
+        if (!$user_exists) {
+            return false;
+        }
+
+        // user exists, get id and update information
+        $user_id = $user->getId();
+
+        $sql = <<< SQL
+update $this->tableName
+set email = ?, name = ?, phone = ?, address = ?, notes = ?, role = ?
+where id = ?
+SQL;
+
+        $pdo = $this->pdo();
+
+
+        try {
+            $statement = $pdo->prepare($sql);
+            $ret = $statement->execute(array($user->getEmail(), $user->getName(), $user->getPhone(), $user->getAddress(), $user->getNotes(), $user_id));
+            return $ret;
+        } catch (\PDOException $e) {
+            // do something when the exception occurs...
+            return false;
+        }
+
+    }
+
 }
