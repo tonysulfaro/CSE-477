@@ -57,6 +57,25 @@ class Table {
     }
 
     /**
+     * @return Site
+     */
+    public function getSite()
+    {
+        return $this->site;
+    }
+
+    /**
+     * @param Site $site
+     */
+    public function setSite($site)
+    {
+        $this->site = $site;
+    }
+
+
+
+
+    /**
      * Database connection function
      * @return PDO object that connects to the database
      */
