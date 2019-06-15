@@ -28,7 +28,7 @@ system.</p>
 	<p><a href="users.php"><img src="images/sleeping200.png" width="282" height="200" alt="Sleepy Cat"></a> <a href="users.php">Users</a></p>
 </div>
 
-    <?php echo $view->footer(); ?>
+<?php echo $view->footer(); ?>
 
 </div>
 

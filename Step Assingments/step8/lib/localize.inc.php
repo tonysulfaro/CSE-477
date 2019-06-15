@@ -12,7 +12,7 @@ return function(Felis\Site $site) {
     $site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=sulfaroa',
         'sulfaroa',       // Database user
         'A52995491',     // Database password
-        's8_');            // Table prefix
+        'test8_');            // Table prefix
 };
 
 

@@ -1,10 +1,17 @@
+<?php
+require 'lib/site.inc.php';
+$view = new Felis\CasesView();
+$view->addLink('./', 'Log Out');
+$view->addLink('./staff.php', 'Log Out');
+if(!$view->protect($site, $user)) {
+    header("location: " . $view->getProtectRedirect());
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Felis Investigations Cases</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="lib/felis.css">
+    <?php echo $view->head(); ?>
 </head>
 
 <body>
@@ -71,9 +78,7 @@
 </form>
 
 
-<footer>
-<p>Copyright © 2019 Felis Investigations, Inc. All rights reserved.</p>
-</footer>
+<?php echo $view->footer(); ?>
 
 </div>
 

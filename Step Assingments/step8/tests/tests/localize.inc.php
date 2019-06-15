@@ -8,7 +8,7 @@ return function(Felis\Site $site) {
     date_default_timezone_set('America/Detroit');
 
     $site->setEmail('sulfaroa@cse.msu.edu');
-    $site->setRoot('/~sulfaroa/step7');
+    $site->setRoot('/~sulfaroa/step8');
     $site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=sulfaroa',
         'sulfaroa',       // Database user
         'A52995491',     // Database password
