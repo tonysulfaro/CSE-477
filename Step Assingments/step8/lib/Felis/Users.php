@@ -2,6 +2,8 @@
 
 namespace Felis;
 
+use phpDocumentor\Reflection\Types\Array_;
+
 /**
  * Manage users in our system.
  */
@@ -101,6 +103,27 @@ SQL;
             return false;
         }
 
+    }
+
+    public function getClients(){
+
+        //prepare query to get users by role
+        $sql = <<< SQL
+select name, id
+from $this->tableName
+where role = 'C'
+SQL;
+
+        $pdo = $this->pdo();
+        $statement = $pdo->prepare($sql);
+
+        $statement->execute();
+        if ($statement->rowCount() === 0) {
+            return null;
+        }
+
+        $result = $statement->fetchAll(\PDO::FETCH_ASSOC);
+        return $result;
     }
 
 }

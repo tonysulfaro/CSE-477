@@ -2,7 +2,7 @@
 require 'lib/site.inc.php';
 $view = new Felis\CasesView();
 $view->addLink('./', 'Log Out');
-$view->addLink('./staff.php', 'Log Out');
+$view->addLink('./staff.php', 'Staff');
 if(!$view->protect($site, $user)) {
     header("location: " . $view->getProtectRedirect());
     exit;
@@ -29,7 +29,7 @@ if(!$view->protect($site, $user)) {
 	<h1><img src="images/comfortable.png" alt="Felis Mascot"> Felis Cases <img src="images/comfortable.png" alt="Felis Mascot"></h1>
 </header>
 
-<form class="table">
+<form class="table" action="post/cases.php" method="post">
 	<p>
 	<input type="submit" name="add" id="add" value="Add">
 	<input type="submit" name="delete" id="delete" value="Delete">
