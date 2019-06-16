@@ -45,4 +45,44 @@ SQL;
         return new ClientCase($statement->fetch(\PDO::FETCH_ASSOC));
     }
 
+    public function insert($client, $agent, $number) {
+        $sql = <<<SQL
+insert into $this->tableName(client, agent, number, summary, status)
+values(?, ?, ?, "", ?)
+SQL;
+
+        $pdo = $this->pdo();
+        $statement = $pdo->prepare($sql);
+
+        try {
+            if($statement->execute([$client,
+                        $agent,
+                        $number,
+                        ClientCase::STATUS_OPEN]
+                ) === false) {
+                return null;
+            }
+        } catch(\PDOException $e) {
+            return null;
+        }
+
+        return $pdo->lastInsertId();
+    }
+
+
+    public function getCases(){
+        $sql = <<< SQL
+select * from $this->tableName as c
+inner join test8_user on c.client = test8_user.id
+inner join test8_user on c.agent = test8_user.id
+SQL;
+
+        $pdo = $this->pdo();
+        $statement = $pdo->prepare($sql);
+
+        $statement->execute();
+        if ($statement->rowCount() === 0) {
+            return array();
+        }
+    }
 }
