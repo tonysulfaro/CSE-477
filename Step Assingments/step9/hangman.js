@@ -39,7 +39,7 @@ function hangman() {
         var letter_guess = document.getElementById('letter').value;
 
         // check length, display error
-        if(letter.length > 1){
+        if(letter_guess.length > 1 || letter_guess == ""){
             message.innerHTML = 'You must enter a letter!';
         }
         else{
