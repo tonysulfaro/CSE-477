@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step9/hangman.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="478">
+              <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="e#16#22#1" expanded="true" />
               </folding>
@@ -189,14 +189,6 @@
               <item name="step9" type="462c0819:PsiDirectoryNode" />
               <item name="quizzes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step9" type="462c0819:PsiDirectoryNode" />
-              <item name="quizzes" type="462c0819:PsiDirectoryNode" />
-              <item name="quizforms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +277,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="29670000" />
+      <workItem from="1560554988322" duration="30375000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -595,7 +587,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560722869031</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="guessing filling working">
+      <created>1560723297804</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560723297804</updated>
+    </task>
+    <task id="LOCAL-00046" summary="improved error handling">
+      <created>1560723867227</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1560723867227</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -610,7 +616,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177148000" />
+    <option name="totallyTimeSpent" value="177853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -643,8 +649,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added controller for game" />
-    <MESSAGE value="step7 base files" />
     <MESSAGE value="step7 phpunit added" />
     <MESSAGE value="error handling for welcome screen added" />
     <MESSAGE value="options controller, post, implemented" />
@@ -668,7 +672,9 @@
     <MESSAGE value="add assingment base files" />
     <MESSAGE value="basic letter entry handled" />
     <MESSAGE value="guessing kinda working" />
-    <option name="LAST_COMMIT_MESSAGE" value="guessing kinda working" />
+    <MESSAGE value="guessing filling working" />
+    <MESSAGE value="improved error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved error handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1023,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step9/hangman.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="478">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
           <folding>
             <element signature="e#16#22#1" expanded="true" />
           </folding>

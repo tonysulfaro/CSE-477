@@ -43,10 +43,13 @@ function hangman() {
             message.innerHTML = 'You must enter a letter!';
         }
         else{
+
+            //add guess to array
             guesses.push(letter_guess);
             var new_display = "";
             message.innerHTML = "";
 
+            // generate text
             for(var i = 0; i < word.length; i++){
                 if(guesses.includes(word[i])){
                     new_display += word[i] + " ";
@@ -54,6 +57,11 @@ function hangman() {
                 else{
                     new_display += "_ ";
                 }
+            }
+
+            //check if won
+            if(!new_display.includes('_')){
+                message.innerHTML = 'You Win!';
             }
 
             console.log(new_display);
