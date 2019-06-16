@@ -1,3 +1,64 @@
+function hangman() {
+    // Pick a random word
+    var word = randomWord();
+    console.log(word);
+
+    // Make a "guess" string with underbars
+    // where each letter will go. We will fill
+    // this in with letters as we find them.
+    var guess = '';
+    for(var i=0; i<word.length;  i++) {
+        guess += '_';
+    }
+
+    // The HTML for the page
+    var html = '<p id="image"><img width="125" height="300" src="images/hm0.png"></p>';
+    var img = 0;
+
+    html += '<p id="guess"></p>';
+    html += '<form>';
+    html += '<input type="hidden" id="word" value="' + word + '">';
+    html += '<p><label for="letter">Letter: </label><input type="text" id="letter"></p>';
+    html += '<p><input type="submit" id="try" value="Guess!"> <input type="submit" id="new" value="New Game"> </p>';
+    html += '<p id="message">&nbsp;</p>';
+    html += '</form>';
+
+    document.getElementById("play-area").innerHTML = html;
+
+    setGuess(guess);
+
+    //document attributes
+    var message = document.getElementById('message');
+
+    document.getElementById("try").onclick = function(event) {
+
+        console.log('guessed');
+        event.preventDefault();
+
+        var letter = document.getElementById('letter').value;
+
+        // check length, display error
+        if(letter.length > 1){
+            message.innerHTML = 'You must enter a letter!';
+        }
+        else{
+            message.innerHTML = "";
+        }
+    }
+
+}
+
+// Set the guess in the from
+function setGuess(guess) {
+    var g = '';
+    for(var i=0; i<guess.length; i++) {
+        g += guess.charAt(i) + ' ';
+    }
+
+    document.getElementById("guess").innerHTML = g;
+}
+
+
 function randomWord() {
     var words = ["moon","home","mega","blue","send","frog","book","hair","late",
         "club","bold","lion","sand","pong","army","baby","baby","bank","bird","bomb","book",
