@@ -35,14 +35,27 @@ function hangman() {
         console.log('guessed');
         event.preventDefault();
 
-        var letter = document.getElementById('letter').value;
+        var letter_guess = document.getElementById('letter').value;
 
         // check length, display error
         if(letter.length > 1){
             message.innerHTML = 'You must enter a letter!';
         }
         else{
+            var new_display = "";
             message.innerHTML = "";
+
+            for(var i = 0; i < word.length; i++){
+                if(word[i] === letter_guess){
+                    new_display += word[i] + " ";
+                }
+                else{
+                    new_display += "_ ";
+                }
+            }
+
+            console.log(new_display);
+            document.getElementById('guess').innerHTML = new_display;
         }
     }
 
