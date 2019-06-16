@@ -1,6 +1,7 @@
 function hangman() {
     // Pick a random word
     var word = randomWord();
+    var guesses = [];
     console.log(word);
 
     // Make a "guess" string with underbars
@@ -42,11 +43,12 @@ function hangman() {
             message.innerHTML = 'You must enter a letter!';
         }
         else{
+            guesses.push(letter_guess);
             var new_display = "";
             message.innerHTML = "";
 
             for(var i = 0; i < word.length; i++){
-                if(word[i] === letter_guess){
+                if(guesses.includes(word[i])){
                     new_display += word[i] + " ";
                 }
                 else{
