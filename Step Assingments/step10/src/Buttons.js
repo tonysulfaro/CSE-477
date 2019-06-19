@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export const Buttons = function () {
     this.on = 1;
     var that = this;
