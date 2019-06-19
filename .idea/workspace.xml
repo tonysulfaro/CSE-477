@@ -2,146 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/b3/ff/88dab87e03cd806fbd0aae14bc90f6d1f856170e5b36453d8063ca37ce376ce67796bb83e96e43642266b9c53e35887005f97d283764b7891bd9e65fdd15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/d9/56/d53d1f87d64be81816f4ad62c4fc3bb573c90bc7fa62558a2c223e0455da6608686ddd5d263403a51ee10f678aa78fa11f89e40b3c23261125f1380d0312" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/.cache/terser-webpack-plugin/index-v5/2c/c3/f33215f6803518e9607bbf4b33fb2064c4b59ba6e13e015a2f5a23c4df9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/.cache/terser-webpack-plugin/index-v5/b2/38/677cd88db2f4c36ce2b3750dc5cef8e7f07a3f01c11637fc675b4aa03f96" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/var/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/DOMEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/camelCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/isAttached.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/nodeName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/ready-no-deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/readyException.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/stripAndCollapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/toType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/adjustCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/finalPropName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/showHide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/rboxStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/css/var/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/data/var/acceptData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/data/var/dataPriv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/data/var/dataUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/deferred/exceptionHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event/focusin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/event/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/buildFragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/getAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/manipulation/wrapMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/traversing/var/dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/traversing/var/siblings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/documentElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/fnToString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/getProto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/isFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/isWindow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/rcssNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/src/wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/img/touch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/_clicker.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="450">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -201,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -243,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step7/staff.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step7/grading.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step7/lib/Felis/Users.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step7/tests/tests/LoginViewTest.php" />
@@ -291,9 +153,10 @@
         <option value="$PROJECT_DIR$/Step Assingments/step10/package.json" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/index.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js" />
-        <option value="$PROJECT_DIR$/Step Assingments/step10/src/index.js" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/index.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/src/_clicker.scss" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/src/index.js" />
       </list>
     </option>
   </component>
@@ -332,13 +195,6 @@
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
               <item name="step10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="step10" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
@@ -435,14 +291,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="38459000" />
-    </task>
-    <task id="LOCAL-00005" summary="I hate this">
-      <created>1559350980787</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559350980787</updated>
+      <workItem from="1560554988322" duration="38946000" />
     </task>
     <task id="LOCAL-00006" summary="things pass now">
       <created>1559351868156</created>
@@ -780,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560919837378</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add more dependencies">
+      <created>1560920375088</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1560920375088</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,7 +651,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185937000" />
+    <option name="totallyTimeSpent" value="186424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -829,7 +685,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="debating on changing underlying data structure for the board." />
     <MESSAGE value="check solution toggled when adding new light" />
     <MESSAGE value="fixed light background when solved" />
     <MESSAGE value="solved works and only tells user to clear board" />
@@ -854,7 +709,8 @@
     <MESSAGE value="full win check implemented. diagonal added" />
     <MESSAGE value="quiz passed somehow lol" />
     <MESSAGE value="step10 base files, add webpack and lot of node modules because why not" />
-    <option name="LAST_COMMIT_MESSAGE" value="step10 base files, add webpack and lot of node modules because why not" />
+    <MESSAGE value="add more dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,9 +729,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step8/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step8/empty.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1204,16 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1225,10 +1068,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/_clicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
