@@ -8,7 +8,12 @@ function TicTacToe(id) {
         for (var r = 0; r < 3; r++) {
             html += "<tr>";
             for (var c = 0; c < 3; c++) {
-                html += `<td onclick="ttt.makeMove(` + r + `,` + c + `)">`;
+                if(this.board[r][c] === ''){
+                    html += `<td onclick="ttt.makeMove(` + r + `,` + c + `)">`;
+                }
+                else{
+                    html += '<td>';
+                }
                 html += this.board[r][c] + "</td>";
             }
             html += `</tr>`;
