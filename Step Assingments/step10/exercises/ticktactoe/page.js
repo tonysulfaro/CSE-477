@@ -19,6 +19,11 @@ function TicTacToe(id) {
         }
 
         html += "</table>";
+
+        if(this.checkWinner() !== ''){
+            html += '<p id="newgame"><a href="">New Game</a></p>';
+        }
+
         html += '<p id="message"></p>';
 
         this.div.innerHTML = html;

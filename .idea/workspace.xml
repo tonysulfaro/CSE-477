@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,29 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="257">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step9/hangman.css">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -149,8 +138,8 @@
         <option value="$PROJECT_DIR$/Step Assingments/step9/hangman.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step9/hangman.js" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" />
       </list>
     </option>
   </component>
@@ -293,21 +282,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="35804000" />
-    </task>
-    <task id="LOCAL-00001" summary="added tests">
-      <created>1559186268250</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559186268250</updated>
-    </task>
-    <task id="LOCAL-00002" summary="have css for step5 final exercise">
-      <created>1559194001490</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1559194001490</updated>
+      <workItem from="1560554988322" duration="36409000" />
     </task>
     <task id="LOCAL-00003" summary="tweaked css step5 final">
       <created>1559194302268</created>
@@ -638,7 +613,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560913394121</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="vertical and horizontal win test implemented">
+      <created>1560914450805</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560914450806</updated>
+    </task>
+    <task id="LOCAL-00051" summary="full win check implemented. diagonal added">
+      <created>1560914818332</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1560914818332</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,14 +642,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183282000" />
+    <option name="totallyTimeSpent" value="183887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -686,9 +675,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="game functions implemented" />
-    <MESSAGE value="light css tweaked to show light" />
-    <MESSAGE value="proper cycling on board" />
     <MESSAGE value="solved shows markers" />
     <MESSAGE value="checks if lights are correct" />
     <MESSAGE value="debating on changing underlying data structure for the board." />
@@ -711,7 +697,10 @@
     <MESSAGE value="tick tack toe placement working" />
     <MESSAGE value="tic tac toe placement working" />
     <MESSAGE value="fixed placement" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed placement" />
+    <MESSAGE value="vertical and horizontal win test implemented" />
+    <MESSAGE value="fu" />
+    <MESSAGE value="full win check implemented. diagonal added" />
+    <option name="LAST_COMMIT_MESSAGE" value="full win check implemented. diagonal added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,6 +1038,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1058,15 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="257">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
