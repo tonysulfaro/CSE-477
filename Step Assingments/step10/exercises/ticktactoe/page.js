@@ -80,6 +80,16 @@ function TicTacToe(id) {
             }
         }
 
+        //diagonal check, just hardcode
+        if (this.board[1][1] !== '') {
+            if (this.board[0][0] === this.board[1][1] && this.board[2][2] === this.board[1][1]) {
+                return this.board[0][0] + " Wins!";
+            }
+            if (this.board[2][0] === this.board[1][1] && this.board[0][2] === this.board[1][1]) {
+                return this.board[0][0] + " Wins!";
+            }
+        }
+
         // no winner
         return '';
     };
