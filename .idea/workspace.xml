@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step9/hangman.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step9/hangman.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +37,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -149,9 +148,9 @@
         <option value="$PROJECT_DIR$/Step Assingments/step9/index.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step9/hangman.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step9/hangman.js" />
-        <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css" />
       </list>
     </option>
   </component>
@@ -294,7 +293,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="34694000" />
+      <workItem from="1560554988322" duration="35804000" />
     </task>
     <task id="LOCAL-00001" summary="added tests">
       <created>1559186268250</created>
@@ -625,7 +624,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560724092513</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="tic tac toe placement working">
+      <created>1560913292304</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560913292304</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fixed placement">
+      <created>1560913394121</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560913394121</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -640,20 +653,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182172000" />
+    <option name="totallyTimeSpent" value="183282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32941177" />
-      <window_info anchor="bottom" id="File Transfer" order="4" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32941177" />
@@ -673,9 +686,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="error handling for welcome screen added" />
-    <MESSAGE value="options controller, post, implemented" />
-    <MESSAGE value="light post working, was not reading in correct post value" />
     <MESSAGE value="game functions implemented" />
     <MESSAGE value="light css tweaked to show light" />
     <MESSAGE value="proper cycling on board" />
@@ -698,7 +708,10 @@
     <MESSAGE value="guessing filling working" />
     <MESSAGE value="improved error handling" />
     <MESSAGE value="win message implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="win message implemented" />
+    <MESSAGE value="tick tack toe placement working" />
+    <MESSAGE value="tic tac toe placement working" />
+    <MESSAGE value="fixed placement" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed placement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,13 +1032,6 @@
     <entry file="file://$PROJECT_DIR$/Step Assingments/step9/images/hm6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step9/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1045,15 +1051,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="724">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>

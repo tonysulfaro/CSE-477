@@ -12,9 +12,6 @@
 
     window.onload = function () {
         ttt = new TicTacToe("ttt");
-
-        ttt.makeMove(0, 0);
-        ttt.makeMove(1, 1);
     }
 
 </script>

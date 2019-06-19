@@ -12,3 +12,7 @@
     height: 1em;
     text-align: center;
 }
+
+div p{
+    text-align: center;
+}
