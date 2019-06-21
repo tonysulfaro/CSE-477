@@ -11436,9 +11436,25 @@ const Simon = function (sel) {
 
     // Ensure this is the last line of the function!
     this.initialize();
-
-
 };
+
+Simon.prototype.configureButton = function(ndx, color) {
+    var button = jquery__WEBPACK_IMPORTED_MODULE_0__(this.form.find("input").get(ndx));
+    //  var button = this.form.find('p:first-child input:nth-child(' + ndx + ')');
+    var that = this;
+
+    button.click(function(event) {
+
+    });
+
+    button.mousedown(function(event) {
+        button.css("background-color", color);
+    });
+
+    button.mouseup(function(event) {
+        button.css("background-color", "lightgrey");
+    });
+}
 
 /***/ }),
 

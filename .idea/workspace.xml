@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/Simon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/_simon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step10/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/step10/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/node_modules/jquery/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/Simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/src/Simon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step10/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step10/src/html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
               <folding>
                 <element signature="e#422#428#1" expanded="true" />
                 <element signature="e#465#471#1" expanded="true" />
@@ -87,11 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/Simon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="382">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step10/grading.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -109,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -156,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step8/tests/tests/LoginControllerTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/lib/Felis/ClientCase.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/tests/tests/ClientCaseTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/lib/Felis/Table.php" />
@@ -203,10 +201,11 @@
         <option value="$PROJECT_DIR$/Step Assingments/step10/package.json" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/webpack.config.js" />
-        <option value="$PROJECT_DIR$/Step Assingments/step10/src/html/index.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/_simon.scss" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/index.js" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/src/html/index.html" />
         <option value="$PROJECT_DIR$/Step Assingments/step10/src/Simon.js" />
+        <option value="$PROJECT_DIR$/Step Assingments/step10/grading.html" />
       </list>
     </option>
   </component>
@@ -252,6 +251,14 @@
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
               <item name="step10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
+              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
+              <item name="step10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,14 +348,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="42255000" />
-    </task>
-    <task id="LOCAL-00007" summary="initial project0 files">
-      <created>1559353291646</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1559353291646</updated>
+      <workItem from="1560554988322" duration="45453000" />
     </task>
     <task id="LOCAL-00008" summary="basically did project0">
       <created>1559356836235</created>
@@ -686,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560920864010</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="simon game base files">
+      <created>1560962275333</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1560962275333</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -701,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189733000" />
+    <option name="totallyTimeSpent" value="192931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -711,11 +718,11 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49874687" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49874687" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012531" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49874687" weight="0.32941177" />
-      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32941177" />
+      <window_info anchor="bottom" id="File Transfer" order="4" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32941177" />
@@ -735,7 +742,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed light background when solved" />
     <MESSAGE value="solved works and only tells user to clear board" />
     <MESSAGE value="almost done with step7 with DB integrations" />
     <MESSAGE value="login kinda working, redirect is directing to wrong url" />
@@ -760,7 +766,8 @@
     <MESSAGE value="step10 base files, add webpack and lot of node modules because why not" />
     <MESSAGE value="add more dependencies" />
     <MESSAGE value="add scss support for webpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scss support for webpack" />
+    <MESSAGE value="simon game base files" />
+    <option name="LAST_COMMIT_MESSAGE" value="simon game base files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,13 +786,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step8/tests/tests/CasesControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step8/tests/tests/UsersTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
@@ -1108,17 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#422#428#1" expanded="true" />
-            <element signature="e#465#471#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/_simon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1139,14 +1128,32 @@
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/Buttons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="e#422#428#1" expanded="true" />
+            <element signature="e#465#471#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step10/src/Simon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="382">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/grading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
