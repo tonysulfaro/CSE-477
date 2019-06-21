@@ -53,13 +53,21 @@ export const Simon = function (sel) {
         if(this.current < this.sequence.length) {
             // We have one to play
             var colors = ['red', 'green', 'blue', 'yellow'];
+
+            this.buttonOn(-1);
+
+            console.log('playing sequence');
             document.getElementById(colors[this.sequence[this.current]]).play();
+            this.buttonOn(this.sequence[this.current]);
             this.current++;
 
             window.setTimeout(function() {
                 that.playCurrent();
             }, 1000);
+
+
         } else {
+            this.buttonOn(-1);
         }
     }
 
@@ -86,11 +94,15 @@ export const Simon = function (sel) {
 
             for(var i = 0; i <= 3; i++){
                 // set to grey
-                $(this.form.find("input").get(0)).css('background-color', 'grey');
+                $(this.form.find("input").get(i)).css('background-color', 'lightgrey');
             }
         }
         else{
-            $(this.form.find("input").get(button)).css('background-color', 'purple');
+
+            // change button color on play
+            console.log(button);
+            var colors = ['red', 'green', 'blue', 'yellow'];
+            $(this.form.find("input").get(button)).css('background-color', colors[button]);
         }
     }
 
@@ -105,6 +117,7 @@ export const Simon = function (sel) {
 
         button.mousedown(function (event) {
             button.css("background-color", color);
+            //that.playCurrent();
         });
 
         button.mouseup(function (event) {
