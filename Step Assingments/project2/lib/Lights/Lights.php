@@ -119,6 +119,45 @@ class Lights {
         $this->showCompleted = $showCompleted;
     }
 
+    public function setUserCreated($bool){
+        $this->userCreated = $bool;
+    }
+
+    public function getUserCreated(){
+        return $this->userCreated;
+    }
+
+    /**
+     * @return bool
+     */
+    public function getConfirmUser()
+    {
+        return $this->confirmUser;
+    }
+
+    /**
+     * @param bool $confirmUser
+     */
+    public function setConfirmUser($confirmUser)
+    {
+        $this->confirmUser = $confirmUser;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isUserValidated()
+    {
+        return $this->userValidated;
+    }
+
+    /**
+     * @param bool $userValidated
+     */
+    public function setUserValidated($userValidated)
+    {
+        $this->userValidated = $userValidated;
+    }
 
 
     private $games;
@@ -128,4 +167,12 @@ class Lights {
 
     private $showLighted = false;
     private $showCompleted = false;
+
+    private $userCreated = false;
+    private $confirmUser = false;
+    private $userValidated = false;
+
+
+
+
 }
