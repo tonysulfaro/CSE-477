@@ -20,6 +20,9 @@ class LoginController extends Controller
 
         if (isset($post['createreset'])) {
             $lights->setUserCreated(true);
+
+            $lights->addUser($post['email'], $post['password']);
+
             $this->setRedirect("../login.php");
         }
 

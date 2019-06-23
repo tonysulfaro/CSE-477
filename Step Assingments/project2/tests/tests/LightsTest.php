@@ -13,7 +13,7 @@ class LightsTest extends \PHPUnit\Framework\TestCase
         $lights->setMessage('test message');
         $this->assertEquals('test message', $lights->getMessage());
 
-        //$lights->addUser('tony116523@gmail.com', 'password');
+        //$lights->addUser('test@gmail.com', 'password');
         $res = $lights->authenticateUser('tony116523@gmail.com', 'password');
         $this->assertEquals(true, $res);
 	}
