@@ -29,7 +29,7 @@ class IndexView extends View {
 <p><a href="new-user.php">NEW USER</a></p>
 <p><a href="login.php">LOGIN</a></p>
 </nav>
-<h1 class="center">Welcome to Charles Owen's Light Em Up!</h1>
+<h1 class="center">Welcome to Tony Sulfaro's Light Em Up!</h1>
 </header>
 HTML;
 

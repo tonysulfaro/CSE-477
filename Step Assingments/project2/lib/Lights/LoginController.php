@@ -35,6 +35,10 @@ class LoginController extends Controller
             $this->setRedirect("../confirm-user.php");
         }
 
+        if (isset($post['login'])){
+            $lights->authenticateUser($post['email'], $post['password']);
+        }
+
     }
 
 }
