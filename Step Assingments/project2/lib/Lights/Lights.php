@@ -187,6 +187,14 @@ class Lights
         $this->user = $user;
     }
 
+    public function setLoginFailed($bool){
+        $this->loginFailed = $bool;
+    }
+
+    public function getLoginFailed(){
+        return $this->loginFailed;
+    }
+
     public function random_salt($len = 16){
         $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`~!@#$%^&*()-=_+';
         $l = strlen($chars)-1;
@@ -269,6 +277,7 @@ SQL;
 
     private $user = null;
 
+    private $loginFailed = false;
 
     private $showLighted = false;
     private $showCompleted = false;

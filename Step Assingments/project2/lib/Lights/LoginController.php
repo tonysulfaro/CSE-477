@@ -43,11 +43,13 @@ class LoginController extends Controller
             if ($res) {
                 // set user status
                 $lights->setUser($post['email']);
+                $lights->setLoginFailed(false);
                 // redirect to main page
                 $this->setRedirect("../index.php");
             } else {
                 // login failed
-                $this->setRedirect("../login.php");
+                $lights->setLoginFailed(true);
+                $this->setRedirect("../login.php?e");
             }
         }
 
