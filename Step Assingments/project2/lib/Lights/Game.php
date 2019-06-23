@@ -13,7 +13,8 @@ namespace Lights;
  *
  * Represents the current state of the game.
  */
-class Game {
+class Game
+{
     /// The cell is unset
     const CELL_UNSET = -1;
 
@@ -27,7 +28,8 @@ class Game {
     const UNLIGHT = -4;
 
 
-    public function __construct(Lights $lights, $dir, $file) {
+    public function __construct(Lights $lights, $dir, $file)
+    {
         $this->lights = $lights;
         $this->file = $file;
 
@@ -41,33 +43,79 @@ class Game {
         // Create the solution as initially empty
         $this->solution = [];
 
-        for($r = 1; $r<=$this->height;  $r++) {
+        for ($r = 1; $r <= $this->height; $r++) {
             $this->solution[$r] = [];
 
-            for($c=1; $c<=$this->width;  $c++) {
+            for ($c = 1; $c <= $this->width; $c++) {
                 $this->solution[$r][$c] = self::CELL_UNSET;
             }
         }
 
         // Add any walls
-        foreach($data['walls'] as $wall) {
+        foreach ($data['walls'] as $wall) {
             $this->solution[$wall['row']][$wall['col']] = $wall['value'] === null ? self::WALL : +$wall['value'];
         }
 
         // Add any lights
-        foreach($data['lights'] as $wall) {
+        foreach ($data['lights'] as $wall) {
             $this->solution[$wall['row']][$wall['col']] = self::LIGHT;
+
+            // do database transactions here to load game
         }
 
         // And clear the game board for play
         $this->clear();
+        $this->loadDB();
+    }
+
+    public function loadDB()
+    {
+        $sql = <<< SQL
+select * from games
+where email = ? and game_file = ?
+order by id desc
+SQL;
+        $statement = $this->pdo()->prepare($sql);
+        $statement->execute(array($this->lights->getUser(), $this->file));
+        $rows = $statement->fetchAll(\PDO::FETCH_ASSOC);
+
+        // modify grid in place
+        foreach ($rows as $row) {
+            $r = $row['row'];
+            $c = $row['col'];
+            $value = $row['type'];
+
+            $this->grid[$r][$c] = $value;
+        }
+    }
+
+    public function clearDB($file)
+    {
+        $sql = <<< SQL
+delete from games
+where email = ? and game_file = ?
+SQL;
+        $statement = $this->pdo()->prepare($sql);
+        $statement->execute(array($this->lights->getUser(), $file));
+
+    }
+
+    public function addDBLight($row, $col, $type)
+    {
+        $sql = <<< SQL
+insert into games (game_file, email, item_type, row, col)
+values (?,?,?,?,?)
+SQL;
+        $statement = $this->pdo()->prepare($sql);
+        $statement->execute(array($this->file, $this->lights->getUser(), $type, $row, $col));
     }
 
     /**
      * Get the game title
      * @return string Title
      */
-    public function getTitle() {
+    public function getTitle()
+    {
         return $this->title;
     }
 
@@ -75,24 +123,28 @@ class Game {
      * Get the name of the game file
      * @return string File name
      */
-    public function getFile() {
+    public function getFile()
+    {
         return $this->file;
     }
 
     /**
      * Clear the game to an initially empty state
      */
-    public function clear() {
+    public function clear()
+    {
+        // clear database
+        $this->clearDB($this->file);
+
         $this->grid = $this->solution;
-        for($r = 1; $r<=$this->height;  $r++) {
-            for($c=1; $c<=$this->width;  $c++) {
-                if($this->grid[$r][$c] === self::LIGHT) {
+        for ($r = 1; $r <= $this->height; $r++) {
+            for ($c = 1; $c <= $this->width; $c++) {
+                if ($this->grid[$r][$c] === self::LIGHT) {
                     $this->grid[$r][$c] = self::CELL_UNSET;
                 }
             }
         }
     }
-
 
 
     /**
@@ -110,23 +162,23 @@ class Game {
         /*
          * The rest of the rows
          */
-        for($r=1; $r<=$rows; $r++) {
-            $html .=  "<tr>";
-            for($c=1; $c<=$cols; $c++) {
+        for ($r = 1; $r <= $rows; $r++) {
+            $html .= "<tr>";
+            for ($c = 1; $c <= $cols; $c++) {
                 $v = $this->grid[$r][$c];
 
-                if($v === self::WALL) {
+                if ($v === self::WALL) {
                     // Blank walls
-                    $html .=  "<td class=\"wall\">&nbsp;</td>";
-                } else if($v >= 0) {
+                    $html .= "<td class=\"wall\">&nbsp;</td>";
+                } else if ($v >= 0) {
                     // Wall with numbers in them
-                    if($this->lights->isShowCompleted() && $this->isCompleted($r, $c)) {
+                    if ($this->lights->isShowCompleted() && $this->isCompleted($r, $c)) {
                         $html .= "<td class=\"wall completed\">$v</td>";
                     } else {
                         $html .= "<td class=\"wall\">$v</td>";
                     }
                 } else {
-                    switch($v) {
+                    switch ($v) {
                         case self::CELL_UNSET:
                             $cls = '';
                             $content = '&nbsp;';
@@ -143,20 +195,20 @@ class Game {
                             break;
                     }
 
-                    if($this->lights->isShowLighted() && $this->isLighted($r, $c)) {
+                    if ($this->lights->isShowLighted() && $this->isLighted($r, $c)) {
                         $cls = $cls == '' ? 'lighted' : $cls . ' lighted';
                     }
 
-                    if($this->checking) {
-                        switch($v) {
+                    if ($this->checking) {
+                        switch ($v) {
                             case self::LIGHT:
-                                if($this->solution[$r][$c] !== self::LIGHT) {
+                                if ($this->solution[$r][$c] !== self::LIGHT) {
                                     $cls = $cls == '' ? 'wrong' : $cls . ' wrong';
                                 }
                                 break;
 
                             case self::UNLIGHT:
-                                if($this->solution[$r][$c] === self::LIGHT) {
+                                if ($this->solution[$r][$c] === self::LIGHT) {
                                     $cls = $cls == '' ? 'wrong' : $cls . ' wrong';
                                 }
                                 break;
@@ -164,16 +216,15 @@ class Game {
                     }
 
 
-
-                    if($cls !== '') {
+                    if ($cls !== '') {
                         $cls = 'class="' . $cls . '"';
                     }
 
-                    $html .=  "<td $cls><button name=\"cell\" value=\"$r,$c\">$content</button></td>";
+                    $html .= "<td $cls><button name=\"cell\" value=\"$r,$c\">$content</button></td>";
                 }
 
             }
-            $html .=  "</tr>";
+            $html .= "</tr>";
         }
         $html .= "</table>";
 
@@ -186,16 +237,17 @@ class Game {
      * @param int $c Column
      * @return boolean true if completed
      */
-    private function isCompleted($r, $c) {
+    private function isCompleted($r, $c)
+    {
         $check = [[-1, 0], [1, 0], [0, -1], [0, 1]];
         $completed = 0; // Count how many cells around are completed
         $lights = 0;    // Count of how many lights around there are
 
-        foreach($check as $chk) {
+        foreach ($check as $chk) {
             $r1 = $r + $chk[0];
             $c1 = $c + $chk[1];
-            if($r1 >= 1 && $r1 <= $this->height && $c1 >= 1 && $c1 <= $this->width) {
-                if($this->grid[$r1][$c1] === self::LIGHT) {
+            if ($r1 >= 1 && $r1 <= $this->height && $c1 >= 1 && $c1 <= $this->width) {
+                if ($this->grid[$r1][$c1] === self::LIGHT) {
                     $lights++;
                 }
             }
@@ -210,55 +262,56 @@ class Game {
      * @param int $c Column
      * @return bool
      */
-    private function isLighted($r, $c) {
+    private function isLighted($r, $c)
+    {
         // Is there a light above us?
-        for($r1 = $r;  $r1 >= 1;  $r1--) {
+        for ($r1 = $r; $r1 >= 1; $r1--) {
             $v = $this->grid[$r1][$c];
-            if($v === self::LIGHT) {
+            if ($v === self::LIGHT) {
                 return true;
             }
 
             // Stop when we hit a wall
-            if($v === self::WALL || $v >= 0) {
+            if ($v === self::WALL || $v >= 0) {
                 break;
             }
         }
 
         // Is there a light below us?
-        for($r1 = $r;  $r1 <= $this->height;  $r1++) {
+        for ($r1 = $r; $r1 <= $this->height; $r1++) {
             $v = $this->grid[$r1][$c];
-            if($v === self::LIGHT) {
+            if ($v === self::LIGHT) {
                 return true;
             }
 
             // Stop when we hit a wall
-            if($v === self::WALL || $v >= 0) {
+            if ($v === self::WALL || $v >= 0) {
                 break;
             }
         }
 
         // Is there a light to the left?
-        for($c1=$c;  $c1>=1; $c1--) {
+        for ($c1 = $c; $c1 >= 1; $c1--) {
             $v = $this->grid[$r][$c1];
-            if($v === self::LIGHT) {
+            if ($v === self::LIGHT) {
                 return true;
             }
 
             // Stop when we hit a wall
-            if($v === self::WALL || $v >= 0) {
+            if ($v === self::WALL || $v >= 0) {
                 break;
             }
         }
 
         // Is there a light to the right?
-        for($c1=$c;  $c1<=$this->width; $c1++) {
+        for ($c1 = $c; $c1 <= $this->width; $c1++) {
             $v = $this->grid[$r][$c1];
-            if($v === self::LIGHT) {
+            if ($v === self::LIGHT) {
                 return true;
             }
 
             // Stop when we hit a wall
-            if($v === self::WALL || $v >= 0) {
+            if ($v === self::WALL || $v >= 0) {
                 break;
             }
         }
@@ -270,7 +323,8 @@ class Game {
      * Get the current game grid as a PHP array.
      * @return array Grid array (2D) with 1-based indexing by rows, then columns
      */
-    public function getGrid() {
+    public function getGrid()
+    {
         return $this->grid;
     }
 
@@ -279,7 +333,8 @@ class Game {
      * Get the game solution as a PHP array.
      * @return array Solution array (2D) with 1-based indexing by rows, then columns
      */
-    public function getSolution() {
+    public function getSolution()
+    {
         return $this->solution;
     }
 
@@ -287,7 +342,8 @@ class Game {
      * Get the number of rows in the game
      * @return int Number of rows the game
      */
-    public function getRows() {
+    public function getRows()
+    {
         return count($this->solution);
     }
 
@@ -295,7 +351,8 @@ class Game {
      * Get the number of columns in the game
      * @return int Number of columns in the game
      */
-    public function getCols() {
+    public function getCols()
+    {
         return count($this->solution[1]);
     }
 
@@ -304,7 +361,8 @@ class Game {
      * @param int $r Row (1-based)
      * @param int $c Column (1-based)
      */
-    public function click($r, $c) {
+    public function click($r, $c)
+    {
         $this->checking = false;
 
         // What is the current cell state?
@@ -312,7 +370,7 @@ class Game {
 
         // If we click on the same location we clicked on last,
         // recover the state before we do anything
-        if($r === $this->lastRow && $c === $this->lastCol) {
+        if ($r === $this->lastRow && $c === $this->lastCol) {
             $this->grid = $this->saved;
         }
 
@@ -321,9 +379,10 @@ class Game {
         $this->lastRow = $r;
         $this->lastCol = $c;
 
-        switch($value) {
+        switch ($value) {
             case self::CELL_UNSET:
                 $this->grid[$r][$c] = self::LIGHT;
+                $this->addDBLight($r, $c, self::LIGHT);
                 break;
 
             case self::UNLIGHT:
@@ -341,22 +400,23 @@ class Game {
      * @return false if incomplete or incorrect
      *          true if correct
      */
-    public function isCorrect() {
+    public function isCorrect()
+    {
         $rows = $this->getRows();
         $cols = $this->getCols();
 
-        for($r=1; $r<=$rows; $r++) {
-            for($c=1; $c<=$cols; $c++) {
+        for ($r = 1; $r <= $rows; $r++) {
+            for ($c = 1; $c <= $cols; $c++) {
                 $solution = $this->solution[$r][$c];
                 $puzzle = $this->grid[$r][$c];
-                if($solution === self::LIGHT) {
+                if ($solution === self::LIGHT) {
                     // Must be a light
-                    if($puzzle !== self::LIGHT) {
+                    if ($puzzle !== self::LIGHT) {
                         return false;
                     }
                 } else {
                     // Must not be a light
-                    if($puzzle === self::LIGHT) {
+                    if ($puzzle === self::LIGHT) {
                         return false;
                     }
                 }
@@ -369,7 +429,8 @@ class Game {
     /**
      * @param boolean $checking Set true to enable error checking
      */
-    public function setChecking($checking) {
+    public function setChecking($checking)
+    {
         $this->checking = $checking;
     }
 
@@ -380,14 +441,16 @@ class Game {
      * A second Yes is then required for this to be accepted.
      * @param boolean $c Value to set
      */
-    public function setSolving($c) {
+    public function setSolving($c)
+    {
         $this->solving = $c;
     }
 
     /**
      * @return bool Solving property
      */
-    public function isSolving() {
+    public function isSolving()
+    {
         return $this->solving;
     }
 
@@ -398,7 +461,8 @@ class Game {
      * A second Yes is then required for this to be accepted.
      * @param boolean $c Value to set
      */
-    public function setClearing($c) {
+    public function setClearing($c)
+    {
         $this->clearing = $c;
     }
 
@@ -406,39 +470,67 @@ class Game {
      * Get the value of clearing
      * @return bool Current value
      */
-    public function isClearing() {
+    public function isClearing()
+    {
         return $this->clearing;
     }
 
     /**
      * Solve the game?
      */
-    public function solve() {
+    public function solve()
+    {
         $rows = $this->getRows();
         $cols = $this->getCols();
 
         $this->grid = $this->solution;
 
-        for($r=1; $r<=$rows; $r++) {
-            for($c=1; $c<=$cols; $c++) {
-                if($this->grid[$r][$c] === self::CELL_UNSET) {
+        for ($r = 1; $r <= $rows; $r++) {
+            for ($c = 1; $c <= $cols; $c++) {
+                if ($this->grid[$r][$c] === self::CELL_UNSET) {
                     $this->grid[$r][$c] = self::UNLIGHT;
                 }
             }
         }
     }
 
+    // manual connection
+    function pdo()
+    {
+        // This ensures we only create the PDO object once
+        if (self::$pdo !== null) {
+            return self::$pdo;
+        }
+
+        try {
+            self::$pdo = new \PDO($this->dbHost,
+                $this->dbUser,
+                $this->dbPassword);
+        } catch (\PDOException $e) {
+            // If we can't connect we die!
+            die("Unable to select database");
+        }
+
+        return self::$pdo;
+    }
+
+    // ye olde hardcode here for db credentials, they are server side so it makes it ok
+    private static $pdo = null; // the PDO object
+    private $dbHost = 'mysql:host=mysql-user.cse.msu.edu;dbname=sulfaroa';     // Database host name
+    private $dbUser = 'sulfaroa';     // Database user name
+    private $dbPassword = 'A52995491';
+
 
     private $file;      // The name of the file containing the game
     private $title;     // The game title from the file
     private $width;     // Width of the game in cells
     private $height;    // Height of the game in cells
-    private $grid = null;		// Current game grid
+    private $grid = null;        // Current game grid
     private $solution = null;   // The solution grid
-    private $checking = false;	// True if checking the result
+    private $checking = false;    // True if checking the result
 
-    private $clearing = false;	// True if we are asking if we are sure about clearing!
-    private $solving = false;	// True if we are asking if we are sure about solving?
+    private $clearing = false;    // True if we are asking if we are sure about clearing!
+    private $solving = false;    // True if we are asking if we are sure about solving?
 
     private $lastRow = null;
     private $lastCol = null;
