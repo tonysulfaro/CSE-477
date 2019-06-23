@@ -14,7 +14,7 @@ class LoginController extends Controller
         if (isset($post['create'])) {
             // do creation of user
             $lights->setUserCreated(true);
-            mail($post['email'], 'click on this now '.$post['name'], 'http://webdev.cse.msu.edu/~sulfaroa/project2/confirm-user.php');
+            mail($post['email'], 'click on this now ' . $post['name'], 'http://webdev.cse.msu.edu/~sulfaroa/project2/confirm-user.php');
             $this->setRedirect("../new-user.php");
         }
 
@@ -30,13 +30,27 @@ class LoginController extends Controller
             $this->setRedirect("../index.php");
         }
 
-        if (isset($post['validate'])){
+        if (isset($post['validate'])) {
             $lights->setValidateUser(true);
             $this->setRedirect("../confirm-user.php");
         }
 
-        if (isset($post['login'])){
-            $lights->authenticateUser($post['email'], $post['password']);
+        if (isset($post['login'])) {
+            $res = $lights->authenticateUser($post['email'], $post['password']);
+            if ($res) {
+                // set user status
+                $lights->setUser($post['email']);
+                // redirect to main page
+                $this->setRedirect("../index.php");
+            } else {
+                // login failed
+                $this->setRedirect("../login.php");
+            }
+        }
+
+        if (isset($post['logout'])) {
+            $lights->setUser(null);
+            $this->setRedirect("../index.php");
         }
 
     }

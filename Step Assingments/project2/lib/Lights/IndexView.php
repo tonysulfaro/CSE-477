@@ -26,8 +26,24 @@ class IndexView extends View {
 		$html .= <<<HTML
 <nav>
 <p><a href="instructions.php">INSTRUCTIONS</a></p>
-<p><a href="new-user.php">NEW USER</a></p>
+HTML;
+
+		// based on login status
+        if($this->lights->getUser()!== null){
+            $html .= <<< HTML
+<form method="post" action="post/login-post.php">
+<p><button type="submit" name="logout">LOGOUT</button></p>
+</form>
+HTML;
+        }
+        else{
+            $html .= <<< HTML
+            <p><a href="new-user.php">NEW USER</a></p>
 <p><a href="login.php">LOGIN</a></p>
+HTML;
+        }
+
+		$html .= <<< HTML
 </nav>
 <h1 class="center">Welcome to Tony Sulfaro's Light Em Up!</h1>
 </header>

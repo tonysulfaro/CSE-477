@@ -199,6 +199,19 @@ class Lights
         return $str;
     }
 
+    public function addUser($email, $pass){
+        $sql = <<< SQL
+insert into logins (email, password, salt)
+values (?,?,?)
+SQL;
+
+        $salt = $this->random_salt();
+        $hashedPassword = hash("sha256", $pass.$salt);
+
+        $statement = $this->pdo()->prepare($sql);
+        $statement->execute(array($email, $hashedPassword, $salt));
+    }
+
     public function authenticateUser($email, $pass)
     {
 
@@ -216,9 +229,10 @@ SQL;
         $salt = $row['salt'];
 
         // validate
-        if ($hash !== hash("sha256", $pass, $salt)) {
-            return null;
+        if ($hash !== hash("sha256", $pass.$salt)) {
+            return false;
         }
+        return true;
     }
 
     function pdo()
