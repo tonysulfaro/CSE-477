@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/game.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/game.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="228" column="29" lean-forward="true" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+            <state relative-caret-position="556">
+              <caret line="239" column="18" lean-forward="true" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -47,6 +47,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+            <state relative-caret-position="682">
+              <caret line="238" column="5" lean-forward="true" selection-start-line="238" selection-start-column="5" selection-end-line="238" selection-end-column="5" />
               <folding>
                 <element signature="e#19#25#1" expanded="true" />
               </folding>
@@ -175,12 +187,12 @@
         <option value="$PROJECT_DIR$/Step Assingments/project2/new-user.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/confirm-user.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/ConfirmUserView.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginController.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/tests/tests/LightsTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/game.inc.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Game.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php" />
       </list>
     </option>
   </component>
@@ -373,21 +385,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="62589000" />
-    </task>
-    <task id="LOCAL-00014" summary="have user name added to session">
-      <created>1560028971128</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1560028971128</updated>
-    </task>
-    <task id="LOCAL-00015" summary="all views implemented">
-      <created>1560029505218</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1560029505218</updated>
+      <workItem from="1560554988322" duration="64166000" />
     </task>
     <task id="LOCAL-00016" summary="it can see the json files now. neat">
       <created>1560041867421</created>
@@ -718,7 +716,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561257614413</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="most database functions implemented">
+      <created>1561325324449</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1561325324449</updated>
+    </task>
+    <task id="LOCAL-00064" summary="allow local play without login">
+      <created>1561326210942</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1561326210942</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +745,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210067000" />
+    <option name="totallyTimeSpent" value="211644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -767,8 +779,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new case posting correctly" />
-    <MESSAGE value="step9 initial work" />
     <MESSAGE value="add assingment base files" />
     <MESSAGE value="basic letter entry handled" />
     <MESSAGE value="guessing kinda working" />
@@ -792,7 +802,9 @@
     <MESSAGE value="random salt time" />
     <MESSAGE value="login and logout implemented" />
     <MESSAGE value="fixed login table schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed login table schema" />
+    <MESSAGE value="most database functions implemented" />
+    <MESSAGE value="allow local play without login" />
+    <option name="LAST_COMMIT_MESSAGE" value="allow local play without login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1121,20 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="228" column="29" lean-forward="true" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/post/login-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/GameView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1165,10 +1156,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+        <state relative-caret-position="682">
+          <caret line="238" column="5" lean-forward="true" selection-start-line="238" selection-start-column="5" selection-end-line="238" selection-end-column="5" />
           <folding>
             <element signature="e#19#25#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="239" column="18" lean-forward="true" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/post/login-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/project2/lib/Lights/IndexView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

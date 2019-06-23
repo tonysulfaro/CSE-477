@@ -232,6 +232,8 @@ SQL;
         if ($hash !== hash("sha256", $pass.$salt)) {
             return false;
         }
+
+        $this->setPlayer($row['playername']);
         return true;
     }
 

@@ -9,87 +9,105 @@ namespace Lights;
 /**
  * View class for the Index (main) page
  */
-class IndexView extends View {
-	public function __construct(Lights $lights) {
-		parent::__construct($lights);
+class IndexView extends View
+{
+    public function __construct(Lights $lights)
+    {
+        parent::__construct($lights);
 
-		$lights->clearGame();
-	}
+        $lights->clearGame();
+    }
 
-	/**
-	 * Present the page header
-	 * @return string HTML
-	 */
-	public function present_header() {
-		$html = parent::present_header();
+    /**
+     * Present the page header
+     * @return string HTML
+     */
+    public function present_header()
+    {
+        $html = parent::present_header();
 
-		$html .= <<<HTML
+        $html .= <<<HTML
 <nav>
 <p><a href="instructions.php">INSTRUCTIONS</a></p>
 HTML;
 
-		// based on login status
-        if($this->lights->getUser()!== null){
+        // based on login status
+        if ($this->lights->getUser() !== null) {
             $html .= <<< HTML
 <form method="post" action="post/login-post.php">
 <p><button type="submit" name="logout">LOGOUT</button></p>
 </form>
 HTML;
-        }
-        else{
+        } else {
             $html .= <<< HTML
             <p><a href="new-user.php">NEW USER</a></p>
 <p><a href="login.php">LOGIN</a></p>
 HTML;
         }
 
-		$html .= <<< HTML
+        $html .= <<< HTML
 </nav>
 <h1 class="center">Welcome to Tony Sulfaro's Light Em Up!</h1>
 </header>
 HTML;
 
-		return $html;
-	}
+        return $html;
+    }
 
-	/**
-	 * Present the page body
-	 * @return string HTML
-	 */
-	public function present_body() {
-	    $lights = $this->getLights();
-	    $games = $lights->getGames()->getGames();
+    /**
+     * Present the page body
+     * @return string HTML
+     */
+    public function present_body()
+    {
+        $lights = $this->getLights();
+        $games = $lights->getGames()->getGames();
 
-		$name = $lights->getPlayer();
+        $name = $lights->getPlayer();
 
-		$html = <<<HTML
+        $html = '';
+
+        if ($this->lights->getUser() === null) {
+            $html .= <<<HTML
 <div class="body">
 <form class="newgame" method="post" action="post/index-post.php">
 	<div class="controls">
 	<p class="name"><label for="name">Name </label><br><input type="text" id="name" name="name" value="$name"></p>
 	<p><select name="game">
 HTML;
+        } else {
+            $loggedplayer = $this->lights->getPlayer();
 
-		foreach($games as $game) {
-			$title = $game->getTitle();
-			$file = $game->getFile();
-			$html .= "<option value=\"$file\">$title</option>";
-		}
+            $html .= <<<HTML
+<div class="body">
+<form class="newgame" method="post" action="post/index-post.php">
+	<div class="controls">
+	<p class="name" style="visibility: hidden"><label for="name">Name </label><br><input type="text" id="name" name="name" value="$loggedplayer"></p>
+	<p><select name="game">
+HTML;
+        }
 
-		$html .= <<<HTML
+
+        foreach ($games as $game) {
+            $title = $game->getTitle();
+            $file = $game->getFile();
+            $html .= "<option value=\"$file\">$title</option>";
+        }
+
+        $html .= <<<HTML
 		</select></p>
 	<p><button>Start or Continue Game</button></p>
 HTML;
-		if($lights->getMessage() !== null) {
-			$html .= '<p class="message">' . $lights->getMessage() . '</p>';
-		}
+        if ($lights->getMessage() !== null) {
+            $html .= '<p class="message">' . $lights->getMessage() . '</p>';
+        }
 
-		$html .= <<<HTML
+        $html .= <<<HTML
 	</div>
 </form>
 </div>
 HTML;
 
-		return $html;
-	}
+        return $html;
+    }
 }
