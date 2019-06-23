@@ -65,7 +65,11 @@ class Game
 
         // And clear the game board for play
         $this->clear();
-        $this->loadDB();
+
+        if ($this->lights->getUser() !== null) {
+            $this->loadDB();
+        }
+
     }
 
     public function loadDB()
@@ -134,7 +138,10 @@ SQL;
     public function clear()
     {
         // clear database
-        $this->clearDB($this->file);
+        if ($this->lights->getUser() !== null) {
+            $this->clearDB($this->file);
+        }
+
 
         $this->grid = $this->solution;
         for ($r = 1; $r <= $this->height; $r++) {
@@ -382,15 +389,27 @@ SQL;
         switch ($value) {
             case self::CELL_UNSET:
                 $this->grid[$r][$c] = self::LIGHT;
-                $this->addDBLight($r, $c, self::LIGHT);
+
+                if ($this->lights->getUser() !== null) {
+                    $this->addDBLight($r, $c, self::LIGHT);
+                }
+
                 break;
 
             case self::UNLIGHT:
                 $this->grid[$r][$c] = self::CELL_UNSET;
+
+                if ($this->lights->getUser() !== null) {
+                    $this->addDBLight($r, $c, self::CELL_UNSET);
+                }
                 break;
 
             case self::LIGHT:
                 $this->grid[$r][$c] = self::UNLIGHT;
+
+                if ($this->lights->getUser() !== null) {
+                    $this->addDBLight($r, $c, self::UNLIGHT);
+                }
                 break;
         }
     }
