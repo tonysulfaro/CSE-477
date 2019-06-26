@@ -15,6 +15,7 @@ class LoginController extends Controller
             // do creation of user
             $lights->setUserCreated(true);
             mail($post['email'], 'click on this now ' . $post['name'], 'http://webdev.cse.msu.edu/~sulfaroa/project2/confirm-user.php');
+            $lights->createUser($post['name'], $post['email']);
             $this->setRedirect("../new-user.php");
         }
 

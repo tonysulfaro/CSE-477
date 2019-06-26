@@ -207,17 +207,27 @@ class Lights
         return $str;
     }
 
+    public function createUser($name, $email){
+        $sql = <<< SQL
+insert into logins (playername, email)
+values (?,?)
+SQL;
+
+        $statement = $this->pdo()->prepare($sql);
+        $statement->execute(array($name, $email));
+    }
+
     public function addUser($email, $pass){
         $sql = <<< SQL
-insert into logins (email, password, salt)
-values (?,?,?)
+update logins set password = ?, salt = ?
+where email = ?
 SQL;
 
         $salt = $this->random_salt();
         $hashedPassword = hash("sha256", $pass.$salt);
 
         $statement = $this->pdo()->prepare($sql);
-        $statement->execute(array($email, $hashedPassword, $salt));
+        $statement->execute(array($hashedPassword, $salt, $email));
     }
 
     public function authenticateUser($email, $pass)
@@ -237,7 +247,7 @@ SQL;
         $salt = $row['salt'];
 
         // validate
-        if ($hash !== hash("sha256", $pass.$salt)) {
+        if ($hash !== hash("sha256", $pass.$salt) || $pass == '') {
             return false;
         }
 
