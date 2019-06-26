@@ -51,9 +51,11 @@ SQL;
             'password' => "zXAajLf9");
         $session = array();
 
+        $login_session = "ajaxnoir_login";
         $login = new Noir\LoginController(self::$site, $post, $session, $extra);
-        $ret = $login->getRedirect();
-        $this->assertEquals(self::$site->getRoot(), $ret);
+        $ret = json_decode($login->getResult(), true);
+        $this->assertTrue($ret['ok']);
+        $this->assertTrue(isset($session[$login_session]));
 
         // Bad user ID
         $post = array('user' => "doofus",
@@ -61,8 +63,10 @@ SQL;
         $session = array();
 
         $login = new Noir\LoginController(self::$site, $post, $session, $extra);
-        $ret = $login->getRedirect();
-        $this->assertEquals(self::$site->getRoot() . "/login.php", $ret);
+        $ret = json_decode($login->getResult(), true);
+        $this->assertFalse($ret['ok']);
+        $this->assertFalse(isset($session[$login_session]));
+        $this->assertEquals("Invalid credentials", $ret['message']);
 
         // Bad password
         $post = array('user' => "test",
@@ -70,8 +74,10 @@ SQL;
         $session = array();
 
         $login = new Noir\LoginController(self::$site, $post, $session, $extra);
-        $ret = $login->getRedirect();
-        $this->assertEquals(self::$site->getRoot() . "/login.php", $ret);
+        $ret = json_decode($login->getResult(), true);
+        $this->assertFalse($ret['ok']);
+        $this->assertFalse(isset($session[$login_session]));
+        $this->assertEquals("Invalid credentials", $ret['message']);
 	}
 
 }

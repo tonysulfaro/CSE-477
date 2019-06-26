@@ -3,5 +3,6 @@ $open = true;
 require '../lib/site.inc.php';
 
 $controller = new Noir\LoginController($site, $_POST, $_SESSION);
-header("location: " . $controller->getRedirect());
+//header("location: " . $controller->getRedirect());
+echo $controller->getResult();
 //echo $controller->linkRedirect();
