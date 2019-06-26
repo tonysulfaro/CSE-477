@@ -26,8 +26,8 @@ class LoginController extends Controller {
 				'hash' => 'b1448efc80355a2fdfc81d4ba15864cbf9784a91c76da24b69df5bf4573170f8'),
 			array('user' => 'cbowen', 'salt' => 'k%ekyCt^3o@@4B6q',
 				'hash' => '236da508ec5a641366086267d5fa900453ed3bceab14aa6085ad1ec7806fa66e'),
-			array('user' => 'sulfaroa', 'salt' => '~D$8rzPQjSvCvm5J',
-				'hash' => '117808d0742745f5f5b280e3a805225c9e5e0681a3e9932c97aedab5db5b1b7e')
+			array('user' => 'sulfaroa', 'salt' => 'n%Gr)joJC_*EhN6N',
+				'hash' => 'a1dca1e3711cbb7cce47d994b42ef93fd73364e8c6f15f663340730ae2895b93')
 		);
 
 		// This allows us to add an extra login for testing purposes
@@ -54,7 +54,7 @@ class LoginController extends Controller {
         $root = $site->getRoot();
         if($login === null) {
             // Invalid user ID
-            $this->result = json_encode(['ok' => false, 'message' => 'Invalid credentials']);
+            $this->redirect = "$root/login.php";
             return;
         }
 
@@ -65,7 +65,7 @@ class LoginController extends Controller {
 
 		if($hash !== $login['hash']) {
 			// Invalid password
-            $this->result = json_encode(['ok' => false, 'message' => 'Invalid credentials']);
+            $this->redirect = "$root/login.php";
 			return;
 		}
 
@@ -73,6 +73,6 @@ class LoginController extends Controller {
         $site->startup($user);
 
         // Success
-        $this->result = json_encode(['ok' => true]);
+        $this->redirect = $root;
 	}
 }
