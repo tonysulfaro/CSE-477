@@ -1,3 +1,3 @@
 <?php
-define("USER", "????");
-define("PASSWORD", "????");
+define("USER", "sulfaroa");
+define("PASSWORD", "A22995491");

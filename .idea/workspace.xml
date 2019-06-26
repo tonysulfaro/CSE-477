@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/deletemovie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/DeleteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/DeleteView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/HomeView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/InfoView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Movie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/MovieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/MovieView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Movies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/localize.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/site.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/user.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/movie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/post/deletemovie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/post/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/post/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/post/movie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/_noir.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/maltese.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/moviedb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/office-paper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/office.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/star-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/star-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/tab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/img/tabs.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/tests/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/tests/testrunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/tests/tests/LoginControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/tests/tests/MoviesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/tests/tests/localize.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/step11/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Step Assingments/step11/lib/user.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/step11/lib/user.inc.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +35,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Site.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -118,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step Assingments/step8/lib/Felis/NewCaseView.php" />
-        <option value="$PROJECT_DIR$/Step Assingments/step8/post/newcase.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/lib/Felis/NewCaseController.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/tests/tests/CasesTest.php" />
         <option value="$PROJECT_DIR$/Step Assingments/step8/cases.php" />
@@ -169,6 +123,8 @@
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginView.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/LoginController.php" />
         <option value="$PROJECT_DIR$/Step Assingments/project2/lib/Lights/Lights.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step11/lib/user.inc.php" />
+        <option value="$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php" />
       </list>
     </option>
   </component>
@@ -311,14 +267,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="66859000" />
-    </task>
-    <task id="LOCAL-00018" summary="added controller for game">
-      <created>1560045687583</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1560045687583</updated>
+      <workItem from="1560554988322" duration="67703000" />
     </task>
     <task id="LOCAL-00019" summary="step7 base files">
       <created>1560049752597</created>
@@ -656,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561327256223</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="step11 base files">
+      <created>1561508906311</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1561508906312</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -671,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214337000" />
+    <option name="totallyTimeSpent" value="215181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -704,7 +660,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="guessing kinda working" />
     <MESSAGE value="guessing filling working" />
     <MESSAGE value="improved error handling" />
     <MESSAGE value="win message implemented" />
@@ -729,7 +684,8 @@
     <MESSAGE value="allow local play without login" />
     <MESSAGE value="home page changes state based on login status" />
     <MESSAGE value="error messages on auth failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="error messages on auth failure" />
+    <MESSAGE value="step11 base files" />
+    <option name="LAST_COMMIT_MESSAGE" value="step11 base files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,20 +704,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/step10/exercises/ticktactoe/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step9/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1104,7 +1046,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/step11/lib/Noir/Site.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step11/lib/user.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/step11/lib/Noir/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -26,8 +26,8 @@ class LoginController extends Controller {
 				'hash' => 'b1448efc80355a2fdfc81d4ba15864cbf9784a91c76da24b69df5bf4573170f8'),
 			array('user' => 'cbowen', 'salt' => 'k%ekyCt^3o@@4B6q',
 				'hash' => '236da508ec5a641366086267d5fa900453ed3bceab14aa6085ad1ec7806fa66e'),
-			array('user' => 'yourid', 'salt' => '9DC=X8x+hL+JpRQ1',
-				'hash' => '236da508ec5a641366086267d5fa900453ed3bceab14aa6085ad1ec7806fa66e')
+			array('user' => 'sulfaroa', 'salt' => '~D$8rzPQjSvCvm5J',
+				'hash' => '117808d0742745f5f5b280e3a805225c9e5e0681a3e9932c97aedab5db5b1b7e')
 		);
 
 		// This allows us to add an extra login for testing purposes
