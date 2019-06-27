@@ -54,7 +54,7 @@ class LoginController extends Controller {
         $root = $site->getRoot();
         if($login === null) {
             // Invalid user ID
-            $this->redirect = "$root/login.php";
+            $this->result = json_encode(['ok' => false, 'message' => 'Invalid credentials']);
             return;
         }
 
@@ -65,7 +65,7 @@ class LoginController extends Controller {
 
 		if($hash !== $login['hash']) {
 			// Invalid password
-            $this->redirect = "$root/login.php";
+            $this->result = json_encode(['ok' => false, 'message' => 'Invalid credentials']);
 			return;
 		}
 
@@ -73,6 +73,6 @@ class LoginController extends Controller {
         $site->startup($user);
 
         // Success
-        $this->redirect = $root;
+        $this->result = json_encode(['ok' => true]);
 	}
 }

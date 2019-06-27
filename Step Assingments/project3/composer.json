@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"LightGame\\": "lib/LightGame"}
+  },
+  "require": {
+    "phpunit/phpunit": "^6"
+  }
+}
