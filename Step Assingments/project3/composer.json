@@ -3,6 +3,6 @@
     "psr-4": {"Lights\\": "lib/Lights"}
   },
   "require": {
-    "phpunit/phpunit": "6"
+    "phpunit/phpunit": "^6"
   }
 }

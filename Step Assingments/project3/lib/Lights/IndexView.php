@@ -25,7 +25,7 @@ class IndexView extends View {
 
 		$html .= <<<HTML
 <nav><p><a href="instructions.php">INSTRUCTIONS</a></p></nav>
-<h1 class="center">Welcome to Charles Owen's Light Em Up!</h1>
+<h1 class="center">Welcome to Tony Sulfaro's Light Em Up!</h1>
 </header>
 HTML;
 
