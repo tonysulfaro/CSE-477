@@ -1,23 +1,22 @@
 <?php
-require __DIR__ . '/lib/game.inc.php';
-$view = new \LightGame\LightGameViewGame($lightgame);
+require_once "lib/game.inc.php";
+$view = new Lights\GameView($lights);
+if($view->getRedirect() !== null) {
+	header("location: " . $view->getRedirect());
+	exit;
+}
 ?>
-
-
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Light Em Up!</title>
-    <link href="game.css" type="text/css" rel="stylesheet"/>
+	<meta charset="utf-8">
+	<title>Light Em Up!</title>
+	<link href="game.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-
 <?php
-echo $view->presentHeader();
-echo $view->presentBody();
-echo $view->presentFooter();
+echo $view->present();
 ?>
 </body>
 </html>

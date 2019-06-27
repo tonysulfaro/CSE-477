@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/StarController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/post/stars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Stars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/src/parse_json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/StarControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/ajaxnoir/post/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/post/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/ajaxnoir/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/LoginControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/LoginControllerTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,74 +28,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/StarController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/StarControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/post/stars.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Stars.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/grading.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,56 +143,6 @@
               <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
               <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Noir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE-477" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE-477" type="462c0819:PsiDirectoryNode" />
-              <item name="Step Assingments" type="462c0819:PsiDirectoryNode" />
-              <item name="ajaxnoir" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,11 +177,11 @@
       <recent name="$PROJECT_DIR$/Step Assingments/project1/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Step Assingments/project3" />
       <recent name="$PROJECT_DIR$/Step Assingments/step11" />
       <recent name="$PROJECT_DIR$/Step Assingments/step7/tests/tests" />
       <recent name="$PROJECT_DIR$/Step Assingments/project1/tests/tests" />
       <recent name="$PROJECT_DIR$/Step Assingments/step7" />
-      <recent name="$PROJECT_DIR$/Step Assingments/project1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,14 +231,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="75589000" />
-    </task>
-    <task id="LOCAL-00021" summary="step7 phpunit added">
-      <created>1560050847296</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1560050847296</updated>
+      <workItem from="1560554988322" duration="76362000" />
     </task>
     <task id="LOCAL-00022" summary="error handling for welcome screen added">
       <created>1560121883324</created>
@@ -705,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561513357564</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="project3 base files">
+      <created>1561598981101</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1561598981101</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,17 +591,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223067000" />
+    <option name="totallyTimeSpent" value="223840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49874687" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49874687" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012531" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49874687" weight="0.32941177" />
@@ -754,7 +624,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="win message implemented" />
     <MESSAGE value="tick tack toe placement working" />
     <MESSAGE value="tic tac toe placement working" />
     <MESSAGE value="fixed placement" />
@@ -779,7 +648,8 @@
     <MESSAGE value="step11 base files" />
     <MESSAGE value="add webpack support" />
     <MESSAGE value="re-add composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-add composer" />
+    <MESSAGE value="project3 base files" />
+    <option name="LAST_COMMIT_MESSAGE" value="project3 base files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1065,13 +935,6 @@
     <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1106,6 +969,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/StarControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/StarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/post/stars.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1115,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/src/Stars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="468">
           <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -1127,27 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/StarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/lib/Noir/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step Assingments/ajaxnoir/tests/tests/StarControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>

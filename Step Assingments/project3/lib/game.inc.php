@@ -1,20 +1,17 @@
 <?php
+
 require __DIR__ . "/../vendor/autoload.php";
+
+// Start the PHP session system
 session_start();
 
 define("LIGHTS_SESSION", 'lights');
 
-//construct lights
-$lights = new \LightGame\Lights();
-
-// create new session if not before
-if (!isset($_SESSION[LIGHTS_SESSION])) {
-    try{
-        $_SESSION[LIGHTS_SESSION] = new LightGame\LightGame($lights, '/games/', $_POST['game'], $_POST['name']);
-    }
-    catch (Exception $e){
-
-    }
+// If there is a system in the session, use that. Otherwise, create one
+if(!isset($_SESSION[LIGHTS_SESSION])) {
+	$_SESSION[LIGHTS_SESSION] = new Lights\Lights(__DIR__ . '/..');
 }
 
-$lightgame = $_SESSION[LIGHTS_SESSION];
+// $_SESSION[LIGHTS_SESSION] = new Lights\Lights(__DIR__ . '/..');
+
+$lights = $_SESSION[LIGHTS_SESSION];

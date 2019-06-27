@@ -147,11 +147,6 @@ td.lighted {
     background-color: yellow;
 }
 
-td.light{
-    background-image: url("images/light.png");
-    background-size: 100% 100%;
-}
-
 td.completed {
     background-image: url('images/completed.png');
     background-size: 100% 100%;
