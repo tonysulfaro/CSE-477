@@ -23,7 +23,7 @@ const Game = function(sel) {
 
     // select button cell that was pressed
     $(sel + " td button").click(function(event) {
-        //event.preventDefault();
+        event.preventDefault();
 
         var loc = this.value.split(',');
         var r = loc[0];
@@ -31,7 +31,7 @@ const Game = function(sel) {
 
         console.log(loc);
 
-        var payload = {'cell': '1,3'};
+        var payload = {'cell': this.value};
 
         // make ajax call to indicate that it was pressed
         // expecting: array(1) { ["cell"]=> string(3) "1,2" }
