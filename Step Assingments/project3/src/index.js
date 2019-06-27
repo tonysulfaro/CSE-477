@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 
-
+// game event listeners
 const Game = function(sel) {
     var form = $(sel);
 
@@ -21,14 +21,36 @@ const Game = function(sel) {
         console.log("submit");
     });
 
+    // select button cell that was pressed
     $(sel + " td button").click(function(event) {
-        event.preventDefault();
+        //event.preventDefault();
 
         var loc = this.value.split(',');
         var r = loc[0];
         var c = loc[1];
 
         console.log(loc);
+
+        var payload = {'cell': '1,3'};
+
+        // make ajax call to indicate that it was pressed
+        // expecting: array(1) { ["cell"]=> string(3) "1,2" }
+        $.ajax({
+            url: "post/game-post.php",
+            data: payload,
+            method: "POST",
+            success: function(data) {
+                console.log('ok');
+                console.log(payload);
+                //console.log(data);
+                //document.documentElement.innerHTML = data;
+            },
+            error: function(xhr, status, error) {
+                console.log('failed');
+                console.log(error);
+            }
+
+        });
     });
 
 };
