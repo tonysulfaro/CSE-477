@@ -4,7 +4,6 @@
     <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project3/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project3/post/game-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/post/game-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Step Assingments/project3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project3/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="355">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -338,21 +337,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="82633000" />
-    </task>
-    <task id="LOCAL-00023" summary="options controller, post, implemented">
-      <created>1560124341878</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1560124341878</updated>
-    </task>
-    <task id="LOCAL-00024" summary="light post working, was not reading in correct post value">
-      <created>1560127318496</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1560127318496</updated>
+      <workItem from="1560554988322" duration="83169000" />
     </task>
     <task id="LOCAL-00025" summary="game functions implemented">
       <created>1560129534936</created>
@@ -683,7 +668,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561677002590</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="have correct payload now">
+      <created>1561678707146</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1561678707146</updated>
+    </task>
+    <task id="LOCAL-00073" summary="it clicks on the correct cells and gets what is expected, great success">
+      <created>1561678895703</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1561678895703</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -698,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230111000" />
+    <option name="totallyTimeSpent" value="230647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -732,8 +731,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tic tac toe placement working" />
-    <MESSAGE value="fixed placement" />
     <MESSAGE value="vertical and horizontal win test implemented" />
     <MESSAGE value="fu" />
     <MESSAGE value="full win check implemented. diagonal added" />
@@ -757,7 +754,9 @@
     <MESSAGE value="re-add composer" />
     <MESSAGE value="project3 base files" />
     <MESSAGE value="getting cell that was clicked on through js" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting cell that was clicked on through js" />
+    <MESSAGE value="have correct payload now" />
+    <MESSAGE value="it clicks on the correct cells and gets what is expected, great success" />
+    <option name="LAST_COMMIT_MESSAGE" value="it clicks on the correct cells and gets what is expected, great success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1121,8 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project3/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="355">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
         </state>
       </provider>
     </entry>

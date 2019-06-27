@@ -53,4 +53,24 @@ const Game = function(sel) {
         });
     });
 
+    $("div.controls button").click(function(event) {
+        event.preventDefault();
+
+        console.log(this.name);
+
+        $.ajax({
+            url: "post/game-post.php",
+            data: this.name,
+            method: "POST",
+            success: function(data) {
+                console.log('ok');
+            },
+            error: function(xhr, status, error) {
+                console.log('failed');
+                console.log(error);
+            }
+
+        });
+    });
+
 };
