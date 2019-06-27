@@ -12,6 +12,7 @@ if($view->getRedirect() !== null) {
 	<meta charset="utf-8">
 	<title>Light Em Up!</title>
 	<link href="game.css" type="text/css" rel="stylesheet" />
+    <script src="dist/main.js"></script>
 </head>
 
 <body>

@@ -46,7 +46,7 @@ HTML;
 
 		$html = <<<HTML
 <div class="body">
-<form class="game" method="post" action="post/game-post.php">
+<form id="gameboard" class="game" method="post" action="post/game-post.php">
 HTML;
 
 		$html .= $game->presentGame(true);
