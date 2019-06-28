@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project3/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project3/lib/Lights/GameView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/lib/Lights/GameView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step Assingments/project3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Step Assingments/project3/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="8b8fbcb9-f755-426f-84cb-bbc3309efa91" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step Assingments/project3/lib/Lights/GameView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="30" column="109" selection-start-line="30" selection-start-column="109" selection-end-line="30" selection-end-column="109" />
+            <state relative-caret-position="338">
+              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -307,7 +301,7 @@
       <workItem from="1559953507325" duration="2614000" />
       <workItem from="1560017638402" duration="1497000" />
       <workItem from="1560019414762" duration="64763000" />
-      <workItem from="1560554988322" duration="87355000" />
+      <workItem from="1560554988322" duration="87417000" />
     </task>
     <task id="LOCAL-00027" summary="proper cycling on board">
       <created>1560131861316</created>
@@ -667,11 +661,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234833000" />
+    <option name="totallyTimeSpent" value="234895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32456142" />
@@ -1096,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Step Assingments/project3/lib/Lights/GameView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="30" column="109" selection-start-line="30" selection-start-column="109" selection-end-line="30" selection-end-column="109" />
+        <state relative-caret-position="338">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
