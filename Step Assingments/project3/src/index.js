@@ -18,85 +18,90 @@ const Game = function(sel) {
 
 
 
+        installListeners();
         console.log("submit");
     });
 
-    // select button cell that was pressed
-    $(sel + " td button").click(function(event) {
-        event.preventDefault();
+    function installListeners(){
+        // select button cell that was pressed
+        $(sel + " td button").click(function(event) {
+            event.preventDefault();
 
-        var loc = this.value.split(',');
-        var r = loc[0];
-        var c = loc[1];
+            var loc = this.value.split(',');
+            var r = loc[0];
+            var c = loc[1];
 
-        console.log(loc);
+            console.log(loc);
 
-        var payload = {'cell': this.value};
+            var payload = {'cell': this.value};
 
-        // make ajax call to indicate that it was pressed
-        // expecting: array(1) { ["cell"]=> string(3) "1,2" }
-        $.ajax({
-            url: "post/game-post.php",
-            data: payload,
-            method: "POST",
-            success: function(data) {
-                console.log('ok');
-                console.log(payload);
-                //console.log(data);
+            // make ajax call to indicate that it was pressed
+            // expecting: array(1) { ["cell"]=> string(3) "1,2" }
+            $.ajax({
+                url: "post/game-post.php",
+                data: payload,
+                method: "POST",
+                success: function(data) {
+                    console.log('ok');
+                    console.log(payload);
+                    //console.log(data);
 
-                // take returned html and replace board
-                var responseBoard = document.createElement('html');
-                responseBoard.innerHTML = data;
+                    // take returned html and replace board
+                    var responseBoard = document.createElement('html');
+                    responseBoard.innerHTML = data;
 
 
-                var newBody = responseBoard.getElementsByClassName('mainboard')[0];
-                console.log(newBody);
+                    var newBody = responseBoard.getElementsByClassName('mainboard')[0];
+                    console.log(newBody);
 
-                var existingBody = document.getElementsByClassName('mainboard')[0];
-                console.log(existingBody);
+                    var existingBody = document.getElementsByClassName('mainboard')[0];
+                    console.log(existingBody);
 
-                existingBody.innerHTML = newBody.outerHTML;
-            },
-            error: function(xhr, status, error) {
-                console.log('failed');
-                console.log(error);
-            }
+                    existingBody.innerHTML = newBody.outerHTML;
+                    installListeners();
+                },
+                error: function(xhr, status, error) {
+                    console.log('failed');
+                    console.log(error);
+                }
 
+            });
         });
-    });
 
 
-    $("div.controls button").click(function(event) {
-        event.preventDefault();
+        $("div.controls button").click(function(event) {
+            event.preventDefault();
 
-        console.log(this.name);
+            console.log(this.name);
 
-        $.ajax({
-            url: "post/game-post.php",
-            data: this.name,
-            method: "POST",
-            success: function(data) {
-                console.log('ok');
+            $.ajax({
+                url: "post/game-post.php",
+                data: this.name,
+                method: "POST",
+                success: function(data) {
+                    console.log('ok');
 
-                // take returned html and replace board
-                var responseBoard = document.createElement('html');
-                responseBoard.innerHTML = data;
+                    // take returned html and replace board
+                    var responseBoard = document.createElement('html');
+                    responseBoard.innerHTML = data;
 
 
-                var newBody = responseBoard.getElementsByClassName('mainboard')[0];
-                console.log(newBody);
+                    var newBody = responseBoard.getElementsByClassName('mainboard')[0];
+                    console.log(newBody);
 
-                var existingBody = document.getElementsByClassName('mainboard')[0];
-                console.log(existingBody);
+                    var existingBody = document.getElementsByClassName('mainboard')[0];
+                    console.log(existingBody);
 
-                existingBody.innerHTML = newBody.outerHTML;
-            },
-            error: function(xhr, status, error) {
-                console.log('failed');
-                console.log(error);
-            }
+                    existingBody.innerHTML = newBody.outerHTML;
+                    installListeners();
+                },
+                error: function(xhr, status, error) {
+                    console.log('failed');
+                    console.log(error);
+                }
 
+            });
         });
-    });
+    }
 
 };

@@ -28,7 +28,7 @@ class GameView extends View {
 		$name = $this->getLights()->getPlayer();
 
 		$html .= <<<HTML
-<nav><p><a href="./">NEW GAME</a> <a href="options.php">OPTIONS</a> <a href="instructions.php">INSTRUCTIONS</a></p></nav>
+<nav><p><a href="./">NEW GAME</a> <a href="options.php">OPTIONS</a> <a href="instructions.php" target="_blank">INSTRUCTIONS</a></p></nav>
 <h1 class="center">Greetings, $name, and welcome to Light Em Up!</h1>
 </header>
 HTML;
