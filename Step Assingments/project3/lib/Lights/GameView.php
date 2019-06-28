@@ -45,7 +45,7 @@ HTML;
 	    $game = $lights->getGame();
 
 		$html = <<<HTML
-<div class="body">
+<div id="mainboard" class="body mainboard">
 <form id="gameboard" class="game" method="post" action="post/game-post.php">
 HTML;
 

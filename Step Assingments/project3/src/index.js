@@ -43,7 +43,19 @@ const Game = function(sel) {
                 console.log('ok');
                 console.log(payload);
                 //console.log(data);
-                //document.documentElement.innerHTML = data;
+
+                // take returned html and replace board
+                var responseBoard = document.createElement('html');
+                responseBoard.innerHTML = data;
+
+
+                var newBody = responseBoard.getElementsByClassName('mainboard')[0];
+                console.log(newBody);
+
+                var existingBody = document.getElementsByClassName('mainboard')[0];
+                console.log(existingBody);
+
+                existingBody.innerHTML = newBody.outerHTML;
             },
             error: function(xhr, status, error) {
                 console.log('failed');
@@ -52,6 +64,7 @@ const Game = function(sel) {
 
         });
     });
+
 
     $("div.controls button").click(function(event) {
         event.preventDefault();
@@ -64,6 +77,19 @@ const Game = function(sel) {
             method: "POST",
             success: function(data) {
                 console.log('ok');
+
+                // take returned html and replace board
+                var responseBoard = document.createElement('html');
+                responseBoard.innerHTML = data;
+
+
+                var newBody = responseBoard.getElementsByClassName('mainboard')[0];
+                console.log(newBody);
+
+                var existingBody = document.getElementsByClassName('mainboard')[0];
+                console.log(existingBody);
+
+                existingBody.innerHTML = newBody.outerHTML;
             },
             error: function(xhr, status, error) {
                 console.log('failed');
